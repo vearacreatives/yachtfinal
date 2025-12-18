@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://yachtclubgoa.com/sitemap.xml

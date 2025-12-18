@@ -1,0 +1,93 @@
+
+.cont_value_name_main_div
+{
+  display: flex;
+}
+
+.count_main_div
+{
+    position: relative;
+}
+
+.count_val
+{
+    font-family: var(--font-fraunces), serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.1599999964237213px;
+    color: #6868686b;
+    margin-bottom: 0px;
+    position: relative;
+    transition: 1s;
+}
+
+
+.count_val span
+{
+    position: absolute;
+    top: -13px;
+    font-weight: 100;
+}
+
+.count_name
+{
+   font-size: 10px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 2.799999952316284px;
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-decoration-color: rgba(245, 124, 51, 1);
+   text-decoration-thickness: 2px;
+   text-underline-offset: 2px;
+   position: absolute;
+   top: 20px;
+   left: 35px;
+}
+
+.count_main_div:hover .count_val
+{
+    color: rgba(245, 124, 51, 1);
+} 
+.long_name
+{
+    left: -8px;
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 500px)
+{
+
+   .count_name 
+   {
+       position: initial;
+   }
+
+   .count_main_div 
+   {
+       text-align: center;
+       margin-bottom: 35px;
+   }
+
+   .count_val 
+   {
+       font-size: 65px;
+   }
+
+   .count_name 
+   {
+     font-size: 9px;
+   }
+}
+/* End of Mobile screen */
+
+/* Tablet Screen */
+@media only screen and (min-width: 740px) and (max-width: 780px)
+{
+    .count_name 
+  {
+    font-size: 9px;
+  }
+}
+/* End of Tablet SCreen */

@@ -1,0 +1,57 @@
+
+.video_modal_close_btn
+{
+    background-color: rgba(245, 124, 51, 1);
+    width: 155px;
+    height: 50px;
+    padding: 11px 14.68px 12px 13px;
+    border: 1px solid rgba(245, 124, 51, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 2.799999952316284px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    transition: 1s;
+}
+
+.video_modal_close_btn:hover
+{
+    background-color: #fff;
+    color: rgba(245, 124, 51, 1);
+}
+
+.view_modal
+{
+    z-index: 999999999!important;
+}
+
+.view_modal .modal-header 
+{
+    justify-content: flex-end;
+}
+
+.video_body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video_player
+{
+    width: 100%;
+    height: 370px;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 500px)
+{
+    .view_modal
+   {
+    padding-left: 0px!important;
+   }
+}
+/* End of Mobile View */

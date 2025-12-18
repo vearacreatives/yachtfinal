@@ -1,0 +1,174 @@
+
+
+/* Section 2 */
+.section2
+{
+    padding: 5% 0%;
+}
+
+.sec2_card_main_div
+{
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.card_img
+{
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.sec2_card_info_div
+{
+    padding: 20px;
+    margin-top: -115px;
+    position: relative;
+}
+
+.sec2_card_info_date_div
+{
+    width: 72px;
+    height: 66px;
+    padding: 5px 21.06px 13px 21.42px;
+    background-color: #F57C33;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2_card_date
+{
+    font-family: var(--font-fraunces), serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.1599999964237213px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+.sec2_card_date_month
+{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.1599999964237213px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.sec2_card_content_div
+{
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 1px 7px 1px #0000003b;
+}
+
+.sec2_admin_comment_info
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.sec2_card_admin_name
+{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.1599999964237213px;
+    color: #7A7A7A;
+    margin-bottom: 0px;
+}
+
+.sec2_card_icon
+{
+    margin-right: 2px;
+    font-size: 15px;
+}
+
+
+.sec2_card_divider
+{
+    width: 100%;
+    height: 1px;
+    background-color: #D7D7D7;
+    margin: 10px 0px;
+}
+
+.sec2_card_title
+{
+    font-family: var(--font-fraunces), serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33.6px;
+    letter-spacing: -0.1599999964237213px;
+    color: #011425;
+    width: 71%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.btn_sec2_card_learn_more
+{
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 2.4000000953674316px;
+    text-transform: uppercase;
+    color: #9B9B9B;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn_sec2_card_learn_more::after
+{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 1px;
+    background-color: #BFA888;
+}
+/* End of Section 2 */
+
+
+/* Tablet Screen */
+@media only screen and (min-width: 740px) and (max-width: 980px)
+{
+    /* Section 2 */
+    .sec2_card_content_div
+    {
+        padding: 10px;
+    }
+
+    .sec2_card_admin_name 
+    {
+        font-size: 10px;
+    }
+
+    .sec2_card_info_div
+    {
+        padding: 10px;
+    }
+
+    .sec2_card_icon
+    {
+        font-size: 12px;
+    }
+
+    .sec2_card_title
+    {
+        font-size: 20px;
+        width: 100%;
+    }
+    /* End of Section 2 */
+}
+/* End of Tablet Screen */

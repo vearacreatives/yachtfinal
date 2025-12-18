@@ -1,0 +1,379 @@
+
+
+/* Section 2 */
+.section2
+{
+    margin: 5% 0%;
+    position: relative;
+}
+
+/* Swiper */
+.swiper_main_img
+{
+    width: 100%;
+    height: 520px;
+    object-fit: contain;
+}
+
+.swiper_thumbs_img
+{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.sec2_swiper_thumbs
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.sec2_swiper_main :global(.swiper-slide)
+{
+   background-color: #d6844829;
+}
+/* End of Swiper */
+
+.sec2_subtitle
+{
+    font-family: var(--font-fraunces), serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: -0.1599999964237213px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sec2_info
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.1599999964237213px;
+    color: rgba(84, 89, 95, 1);
+    text-align: justify;
+}
+
+.sec3_main_div
+{
+    background-color: rgba(254, 252, 241, 1);
+    border: 1px solid rgba(245, 124, 51, 1);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+.yacht_info_main_div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yacht_info_name
+{
+    font-family: var(--font-fraunces), serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    letter-spacing: -0.1599999964237213px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.yacht_info_val
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.1599999964237213px;
+    color: rgba(84, 89, 95, 1);
+}
+
+.sec4_info
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.1599999964237213px;
+    color: rgba(84, 89, 95, 1);
+}
+
+.sec5_subtitle
+{
+    font-family: var(--font-fraunces), serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.1599999964237213px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.sec5_ul
+{
+    padding: 0px;
+    list-style: none;
+}
+
+.sec5_ul li
+{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: -0.1599999964237213px;
+   color: rgba(84, 89, 95, 1);
+   margin-bottom: 10px;
+}
+
+.sec5_ul li:last-child
+{
+    margin-bottom: 0px;
+}
+
+.sec5_li_icon
+{
+    margin-right: 10px;
+}
+
+
+.book_compare_main_div
+{
+    position: relative;
+}
+
+.book_form_main_div
+{
+    background-color: rgba(254, 252, 241, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(245, 124, 51, 1);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.book_form_main_div:last-child
+{
+    margin-bottom: 0px;
+}
+
+.book_form_label
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.1599999964237213px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.book_form_input
+{
+    height: 61px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(244, 245, 248, 1);
+    border-radius: 4px;
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+
+.btn_book_now
+{
+    background-color: rgba(1, 20, 37, 1);
+    border: 1px solid rgba(1, 20, 37, 1);
+    width: 100%;
+    height: 49px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    transition: 1s;
+    margin-top: 15px;
+}
+
+.btn_book_now:hover
+{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(1, 20, 37, 1);
+}
+
+
+.bg_img1
+{
+    position: absolute;
+    top: 17%;
+    left: -2%;
+    width: 159px;
+    height: 447px;
+    animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.bg_img2
+{
+    width: 121px;
+    height: 168px;
+    position: absolute;
+    top: 10%;
+    right: -76px;
+    transform: rotate(-179deg);
+}
+/* End of Section 2 */
+
+/* Video Gallery */
+.video_image
+{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+
+.video_swiper :global(.swiper-slide)
+{
+    height: 240px!important;
+}
+
+.video_swiper :global(.swiper-pagination)
+{
+    top: 90% !important;
+}
+
+.video_swiper :global(.swiper-pagination-bullet-active) 
+{
+    background: rgba(245, 124, 51, 1)!important;
+    border: 1px solid rgba(245, 124, 51, 1)!important;
+}
+
+.video_swiper :global(.swiper-pagination-bullet)
+{
+    background: transparent;
+    border: 1px solid rgba(215, 215, 215, 1);
+    opacity: inherit!important;
+}
+/* End of Video Gallery */
+
+/* Mail message */
+.sec2_message_sending
+{
+    font-size: 15px;
+}
+
+.loading_gif
+{
+    width: 40px;
+    height: 30px;
+}
+/* End of Mail message */
+
+/* Whatsapp btn */
+.book_whatsapp_btn
+{
+  background-color: #25d366;
+  border: 1px solid #25d366;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  transition: 1s;
+  margin-bottom: 20px;
+}
+
+.book_whatsapp_btn:hover
+{
+  background-color: #FFFFFF;
+  color: #25d366;
+}
+
+.book_whatsapp_icon
+{
+    margin-right: 10px;
+    font-size: 26px;
+}
+/* End of Whatsapp btn */
+
+/* Mobile View */
+@media only screen and (max-width: 500px)
+{
+    /* Section 2 */
+    .section2
+    {
+        margin: 40px 0px 80px 0px;
+    }
+
+    .book_compare_main_div
+    {
+        margin-top: 20px;
+    }
+
+    .bg_img1
+    {
+        display: none;
+    }
+
+    .bg_img2
+    {
+        display: none;
+    }
+    
+    .swiper_main_img
+    {
+        height: 330px;
+    }
+    /* End of Section 2 */
+}
+/* End of Mobile View */
+
+/* Tablet View */
+@media only screen and (min-width: 740px) and (max-width: 980px)
+{
+    /* Section 2 */
+    .book_compare_main_div
+    {
+        margin-top: 20px;
+    }
+
+    .bg_img1
+    {
+        display: none;
+    }
+
+    .bg_img2
+    {
+        display: none;
+    }
+
+    .book_form_main_div 
+    {
+        margin-bottom: 50px;
+    }
+    /* End of Section 2 */
+}
+/* End of Tablet View */
+
+/* Mini screen */
+@media only screen and (min-width: 990px) and (max-width: 1091px)
+{
+    /* Section 2 */
+    .bg_img2
+    {
+        right: -38px;
+    }
+    /* End of Section 2 */
+}
+/* End of Min Screen */
