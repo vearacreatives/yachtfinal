@@ -29,6 +29,13 @@ import img27 from '../assets/blog/card/romantic-getaway-in-goa-top-7-ideas-for-c
 import img28 from '../assets/blog/card/private-boat-rides-in-goa-for-a-perfect-date.png'
 import img29 from '../assets/blog/card/why-private-luxury-yachts-are-the-ultimate-way-to-explore-goas-coastline.png'
 import img30 from '../assets/blog/card/insiders-guide-to-choosing-the-perfect-goa-yacht-for-every-occasion.png'
+import img31 from '../assets/blog/card/best-places-for-a-pre-wedding-shoot-in-goa-5-stunning-locations.jpg'
+import img32 from '../assets/blog/card/yacht-vs-cruise-in-goa-which-experience-is-right-for-you.jpg'
+import img33 from '../assets/blog/card/best-time-of-the-day-to-book-a-yacht-in-goa-sunrise-vs-sunset.jpg'
+import img34 from '../assets/blog/card/goa-yacht-rental-documents-booking-process-what-to-expect.jpg'
+import img35 from '../assets/blog/card/yacht-101-what-not-to-do-on-your-first-yacht-ride-in-goa.png'
+import img36 from '../assets/blog/card/the-best-goa-sunset-points-you-can-only-see-from-a-yacht.png'
+import img37 from '../assets/blog/card/how-safe-is-yachting-in-goa-a-transparent-look-at-safety-standards.jpg'
 
 
 
@@ -303,6 +310,69 @@ export const BlogList = [
         admin: 'Yacht Club',
         title: "Insider’s Guide to Choosing the Perfect Goa Yacht for Every Occasion",
         param: "insiders-guide-to-choosing-the-perfect-goa-yacht-for-every-occasion"
-    }
+    },
+    {
+        id: 31,
+        img: img31,
+        alt: "Best Places for a Pre-Wedding Shoot in Goa: 5 Stunning Locations",
+        date: '2025-07-06', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Best Places for a Pre-Wedding Shoot in Goa: 5 Stunning Locations",
+        param: "best-places-for-a-pre-wedding-shoot-in-goa-5-stunning-locations"
+    },
+    {
+        id: 32,
+        img: img32,
+        alt: "Yacht vs Cruise in Goa: Which Experience Is Right for You?",
+        date: '2025-07-07', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Yacht vs Cruise in Goa: Which Experience Is Right for You?",
+        param: "yacht-vs-cruise-in-goa-which-experience-is-right-for-you"
+    },
+    {
+        id: 33,
+        img: img33,
+        alt: "Best Time of the Day to Book a Yacht in Goa: Sunrise vs Sunset",
+        date: '2025-07-08', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Best Time of the Day to Book a Yacht in Goa: Sunrise vs Sunset",
+        param: "best-time-of-the-day-to-book-a-yacht-in-goa-sunrise-vs-sunset"
+    },
+    {
+        id: 34,
+        img: img34,
+        alt: "Goa Yacht Rental: Documents, Booking Process & What to Expect",
+        date: '2025-07-06', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Goa Yacht Rental: Documents, Booking Process & What to Expect",
+        param: "goa-yacht-rental-documents-booking-process-what-to-expect"
+    },
+    {
+        id: 35,
+        img: img35,
+        alt: "Yacht 101: What NOT to Do on Your First Yacht Ride in Goa",
+        date: '2025-07-07', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Yacht 101: What NOT to Do on Your First Yacht Ride in Goa",
+        param: "yacht-101-what-not-to-do-on-your-first-yacht-ride-in-goa"
+    },
+    {
+        id: 36,
+        img: img36,
+        alt: "The Best Goa Sunset Points You Can Only See From a Yacht",
+        date: '2025-07-08', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "The Best Goa Sunset Points You Can Only See From a Yacht",
+        param: "the-best-goa-sunset-points-you-can-only-see-from-a-yacht"
+    },
+    {
+        id: 37,
+        img: img37,
+        alt: "How Safe is Yachting in Goa? A Transparent Look at Safety Standards",
+        date: '2025-07-09', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "How Safe is Yachting in Goa? A Transparent Look at Safety Standards",
+        param: "how-safe-is-yachting-in-goa-a-transparent-look-at-safety-standards"
+    },
     
 ]

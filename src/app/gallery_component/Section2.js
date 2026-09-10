@@ -10,7 +10,8 @@ import Image from 'next/image'
 
 //Light Box
 import {SlideshowLightbox} from 'lightbox.js-react'
-import 'lightbox.js-react/dist/index.css'
+// import 'lightbox.js-react/dist/index.css'
+import '../../../node_modules/lightbox.js-react/dist/index.css'
 //End of Light Box
 import { Gallery_data } from './Gallery_data'
 function Section2() {

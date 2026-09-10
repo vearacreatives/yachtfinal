@@ -28,7 +28,8 @@ import Link from 'next/link';
 import { Section7_data } from './Section7_data'
 
 //Light Box
-import 'lightbox.js-react/dist/index.css'
+// import 'lightbox.js-react/dist/index.css'
+import '../../../node_modules/lightbox.js-react/dist/index.css'
 //End of Light Box
 
 
