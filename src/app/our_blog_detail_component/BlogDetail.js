@@ -37,7 +37,6 @@ import img35 from '../assets/blog/card/yacht-101-what-not-to-do-on-your-first-ya
 import img36 from '../assets/blog/card/the-best-goa-sunset-points-you-can-only-see-from-a-yacht.png'
 import img37 from '../assets/blog/card/how-safe-is-yachting-in-goa-a-transparent-look-at-safety-standards.jpg'
 
-ß
 //Blog Content Images
 import blog_content_img1 from '../assets/blog/blog_detail/blog_content_img/the-ultimate-guide-to-yachts-in-goa-img1.jpeg'
 import blog_content_img2 from '../assets/blog/blog_detail/blog_content_img/the-ultimate-guide-to-yachts-in-goa-img2.jpeg'
