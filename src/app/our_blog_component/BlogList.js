@@ -297,7 +297,7 @@ export const BlogList = [
         id: 29,
         img: img29,
         alt: "Private Luxury Yacht in Goa- Your Ultimate Coastal Experience",
-        date: '2025-07-01',//YYYY-MM-dd
+        date: '2025-03-05',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Why Private Luxury Yachts Are the Ultimate Way to Explore Goa’s Coastline",
         param: "why-private-luxury-yachts-are-the-ultimate-way-to-explore-goas-coastline"
@@ -306,7 +306,7 @@ export const BlogList = [
         id: 30,
         img: img30,
         alt: "How to Choose the Perfect Goa Yacht for Any Occasion",
-        date: '2025-07-05',//YYYY-MM-dd
+        date: '2025-04-15',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Insider’s Guide to Choosing the Perfect Goa Yacht for Every Occasion",
         param: "insiders-guide-to-choosing-the-perfect-goa-yacht-for-every-occasion"
@@ -315,7 +315,7 @@ export const BlogList = [
         id: 31,
         img: img31,
         alt: "Best Places for a Pre-Wedding Shoot in Goa: 5 Stunning Locations",
-        date: '2025-07-06', // YYYY-MM-dd
+        date: '2025-05-06', // YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Best Places for a Pre-Wedding Shoot in Goa: 5 Stunning Locations",
         param: "best-places-for-a-pre-wedding-shoot-in-goa-5-stunning-locations"
@@ -324,7 +324,7 @@ export const BlogList = [
         id: 32,
         img: img32,
         alt: "Yacht vs Cruise in Goa: Which Experience Is Right for You?",
-        date: '2025-07-07', // YYYY-MM-dd
+        date: '2025-05-25', // YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Yacht vs Cruise in Goa: Which Experience Is Right for You?",
         param: "yacht-vs-cruise-in-goa-which-experience-is-right-for-you"
@@ -333,7 +333,7 @@ export const BlogList = [
         id: 33,
         img: img33,
         alt: "Best Time of the Day to Book a Yacht in Goa: Sunrise vs Sunset",
-        date: '2025-07-08', // YYYY-MM-dd
+        date: '2025-06-18', // YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Best Time of the Day to Book a Yacht in Goa: Sunrise vs Sunset",
         param: "best-time-of-the-day-to-book-a-yacht-in-goa-sunrise-vs-sunset"
@@ -342,7 +342,7 @@ export const BlogList = [
         id: 34,
         img: img34,
         alt: "Goa Yacht Rental: Documents, Booking Process & What to Expect",
-        date: '2025-07-06', // YYYY-MM-dd
+        date: '2025-06-26', // YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Goa Yacht Rental: Documents, Booking Process & What to Expect",
         param: "goa-yacht-rental-documents-booking-process-what-to-expect"
@@ -360,7 +360,7 @@ export const BlogList = [
         id: 36,
         img: img36,
         alt: "The Best Goa Sunset Points You Can Only See From a Yacht",
-        date: '2025-07-08', // YYYY-MM-dd
+        date: '2025-07-15', // YYYY-MM-dd
         admin: 'Yacht Club',
         title: "The Best Goa Sunset Points You Can Only See From a Yacht",
         param: "the-best-goa-sunset-points-you-can-only-see-from-a-yacht"
@@ -369,7 +369,7 @@ export const BlogList = [
         id: 37,
         img: img37,
         alt: "How Safe is Yachting in Goa? A Transparent Look at Safety Standards",
-        date: '2025-07-09', // YYYY-MM-dd
+        date: '2025-07-22', // YYYY-MM-dd
         admin: 'Yacht Club',
         title: "How Safe is Yachting in Goa? A Transparent Look at Safety Standards",
         param: "how-safe-is-yachting-in-goa-a-transparent-look-at-safety-standards"

@@ -6240,7 +6240,7 @@ export const BlogDetail = [
     param: "why-private-luxury-yachts-are-the-ultimate-way-to-explore-goas-coastline",
     meta_title: "Private Luxury Yacht in Goa- Your Ultimate Coastal Experience",
     meta_description: "Discover why a private luxury yacht is the best way to explore Goa’s coastline. Exclusive routes, luxury amenities, and unforgettable moments this guide has it all.",
-    date: '2025-07-01',//YYYY-MM-dd
+    date: '2025-03-05',//YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info:
       <>
@@ -6530,7 +6530,7 @@ export const BlogDetail = [
     param: "insiders-guide-to-choosing-the-perfect-goa-yacht-for-every-occasion",
     meta_title: "How to Choose the Perfect Goa Yacht for Any Occasion",
     meta_description: "From romantic sunset cruises to corporate events, find out how to choose the perfect Goa yacht with our insider’s guide.",
-    date: '2025-07-05',//YYYY-MM-dd
+    date: '2025-04-15',//YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info:
       <>
@@ -6864,7 +6864,7 @@ export const BlogDetail = [
     param: "best-places-for-a-pre-wedding-shoot-in-goa-5-stunning-locations",
     meta_title: "Best Places for a Pre-Wedding Shoot in Goa: 5 Stunning Locations",
     meta_description: "Discover the 5 best places for a pre-wedding shoot in Goa, from Fort Aguada and Fontainhas to Cabo de Rama, Palácio do Deão and a luxury yacht.",
-    date: '2025-07-10', // YYYY-MM-dd
+    date: '2025-05-06', // YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info:
       <>
@@ -7257,7 +7257,7 @@ export const BlogDetail = [
     param: "yacht-vs-cruise-in-goa-which-experience-is-right-for-you",
     meta_title: "Yacht vs Cruise in Goa: Which Experience Is Right for You?",
     meta_description: "Yacht or cruise in Goa? Compare privacy, atmosphere, cost and activities to choose the perfect experience for couples, families, friends and events.",
-    date: '2025-07-11', // YYYY-MM-dd
+    date: '2025-05-25', // YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info:
       <>
@@ -7581,7 +7581,7 @@ export const BlogDetail = [
     param: "best-time-of-the-day-to-book-a-yacht-in-goa-sunrise-vs-sunset",
     meta_title: "Best Time to Book a Yacht in Goa: Sunrise vs Sunset",
     meta_description: "Sunrise or sunset yacht ride in Goa? Compare the best times for romance, photography, parties, family outings and peaceful yacht experiences.",
-    date: '2025-07-12', // YYYY-MM-dd
+    date: '2025-06-18', // YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info:
       <>
@@ -7924,7 +7924,7 @@ export const BlogDetail = [
     param: "goa-yacht-rental-documents-booking-process-what-to-expect",
     meta_title: "Goa Yacht Rental: Documents, Booking Process & What to Expect",
     meta_description: "Planning a yacht rental in Goa? Learn about required documents, booking steps, yacht options, what to carry and what to expect on your trip.",
-    date: '2025-07-13', // YYYY-MM-dd
+    date: '2025-06-26', // YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info:
       <>
@@ -8305,7 +8305,7 @@ export const BlogDetail = [
     param: "yacht-101-what-not-to-do-on-your-first-yacht-ride-in-goa",
     meta_title: "Yacht 101: What NOT to Do on Your First Yacht Ride in Goa",
     meta_description: "Taking your first yacht ride in Goa? Learn what not to do, from safety mistakes and late arrivals to packing, food, etiquette and weather policies.",
-    date: '2025-07-14', // YYYY-MM-dd
+    date: '2025-07-7', // YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info:
       <>
@@ -9037,7 +9037,7 @@ export const BlogDetail = [
     param: "how-safe-is-yachting-in-goa-a-transparent-look-at-safety-standards",
     meta_title: "How Safe is Yachting in Goa? Safety Standards Explained",
     meta_description: "How safe is yachting in Goa? Learn about yacht maintenance, trained crew, safety equipment, weather monitoring, passenger limits and onboard safety.",
-    date: '2025-07-16', // YYYY-MM-dd
+    date: '2025-07-22', // YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info:
       <>
