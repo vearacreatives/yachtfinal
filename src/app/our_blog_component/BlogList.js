@@ -36,6 +36,9 @@ import img34 from '../assets/blog/card/goa-yacht-rental-documents-booking-proces
 import img35 from '../assets/blog/card/yacht-101-what-not-to-do-on-your-first-yacht-ride-in-goa.png'
 import img36 from '../assets/blog/card/the-best-goa-sunset-points-you-can-only-see-from-a-yacht.png'
 import img37 from '../assets/blog/card/how-safe-is-yachting-in-goa-a-transparent-look-at-safety-standards.jpg'
+import img38 from '../assets/blog/card/goas-floating-casinos-vs-private-yachts.jpg'
+import img39 from '../assets/blog/card/solo-in-goa-why-a-private-yacht.jpg'
+import img40 from '../assets/blog/card/if-goas-yachts-could-talk-confessions-from-10-years-on-the-water.jpg'
 
 
 
@@ -373,6 +376,33 @@ export const BlogList = [
         admin: 'Yacht Club',
         title: "How Safe is Yachting in Goa? A Transparent Look at Safety Standards",
         param: "how-safe-is-yachting-in-goa-a-transparent-look-at-safety-standards"
+    },
+    {
+        id: 38,
+        img: img38,
+        alt: "Goa's Floating Casinos vs Private Yachts: What's the Real Difference?",
+        date: '2026-01-05', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Goa's Floating Casinos vs Private Yachts: What's the Real Difference?",
+        param: "goas-floating-casinos-vs-private-yachts-whats-the-real-difference"
+    },
+    {
+        id: 39,
+        img: img39,
+        alt: "Solo in Goa? Why a Private Yacht Might be the Best Decision You Make",
+        date: '2026-01-25', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Solo in Goa? Why a Private Yacht Might be the Best Decision You Make",
+        param: "solo-in-goa-why-a-private-yacht-might-be-the-best-decision-you-make"
+    },
+    {
+        id: 40,
+        img: img40,
+        alt: "If Goa's Yachts Could Talk: Confessions from 10 Years on the Water",
+        date: '2026-02-15', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "If Goa's Yachts Could Talk: Confessions from 10 Years on the Water",
+        param: "if-goas-yachts-could-talk-confessions-from-10-years-on-the-water"
     },
     
 ]
