@@ -39,7 +39,12 @@ import img37 from '../assets/blog/card/how-safe-is-yachting-in-goa-a-transparent
 import img38 from '../assets/blog/card/goas-floating-casinos-vs-private-yachts.jpg'
 import img39 from '../assets/blog/card/solo-in-goa-why-a-private-yacht.jpg'
 import img40 from '../assets/blog/card/if-goas-yachts-could-talk-confessions-from-10-years-on-the-water.jpg'
-
+import img42 from '../assets/blog/card/how-to-plan-a-surprise-proposal-on-a-yacht-in-goa.jpg'
+import img43 from '../assets/blog/card/yacht-date-ideas-in-goa-7-ways-to-make-it-special.jpeg'
+import img44 from '../assets/blog/card/is-a-yacht-ride-in-goa-good-for-families.jpeg'
+import img45 from '../assets/blog/card/yacht-ride-in-goa-with-friends-why-it-belongs-on-your-itinerary.jpeg'
+import img46 from '../assets/blog/card/goa-in-december-for-couples-fun-things-to-do-together.jpeg'
+import img47 from '../assets/blog/card/christmas-holiday-in-goa-10-experiences-to-add-to-your-itinerary.jpeg'
 
 
 export const BlogList = [
@@ -404,5 +409,67 @@ export const BlogList = [
         title: "If Goa's Yachts Could Talk: Confessions from 10 Years on the Water",
         param: "if-goas-yachts-could-talk-confessions-from-10-years-on-the-water"
     },
-    
+    {
+        id: 41,
+        img: img3,
+        alt: "Things to Do on a Yacht in Goa: 10 Fun Ideas for Your Trip",
+        date: '2026-02-29', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Things to Do on a Yacht in Goa: 10 Fun Ideas for Your Trip",
+        param: "things-to-do-on-a-yacht-in-goa-10-fun-ideas-for-your-trip"
+    },
+    {
+        id: 42,
+        img: img42,
+        alt: "How to Plan a Surprise Proposal on a Yacht in Goa",
+        date: '2026-03-04', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "How to Plan a Surprise Proposal on a Yacht in Goa",
+        param: "how-to-plan-a-surprise-proposal-on-a-yacht-in-goa"
+    },
+    {
+        id: 43,
+        img: img43,
+        alt: "Yacht Date Ideas in Goa: 7 Ways to Make It Special",
+        date: '2026-03-16', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Yacht Date Ideas in Goa: 7 Ways to Make It Special",
+        param: "yacht-date-ideas-in-goa-7-ways-to-make-it-special"
+    },
+    {
+        id: 44,
+        img: img44,
+        alt: "Is a Yacht Ride in Goa Good for Families? Here's What to Know",
+        date: '2026-03-30', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Is a Yacht Ride in Goa Good for Families? Here's What to Know",
+        param: "is-a-yacht-ride-in-goa-good-for-families"
+    },
+    {
+        id: 45,
+        img: img45,
+        alt: "Yacht Ride in Goa With Friends: Why It Belongs on Your Itinerary",
+        date: '2026-04-09', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Yacht Ride in Goa With Friends: Why It Belongs on Your Itinerary",
+        param: "yacht-ride-in-goa-with-friends-why-it-belongs-on-your-itinerary"
+    },
+    {
+        id: 46,
+        img: img46,
+        alt: "Goa in December for Couples: Fun Things to Do Together",
+        date: '2026-04-15', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Goa in December for Couples: Fun Things to Do Together",
+        param: "goa-in-december-for-couples-fun-things-to-do-together"
+    },
+    {
+        id: 47,
+        img: img47,
+        alt: "Christmas Holiday in Goa: 10 Experiences to Add to Your Itinerary",
+        date: '2026-04-25', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "Christmas Holiday in Goa: 10 Experiences to Add to Your Itinerary",
+        param: "christmas-holiday-in-goa-10-experiences-to-add-to-your-itinerary"
+    },
 ]
