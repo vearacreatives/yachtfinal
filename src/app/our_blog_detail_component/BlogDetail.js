@@ -45,6 +45,9 @@ import img44 from '../assets/blog/card/is-a-yacht-ride-in-goa-good-for-families.
 import img46 from '../assets/blog/card/goa-in-december-for-couples-fun-things-to-do-together.jpeg'
 import img47 from '../assets/blog/card/christmas-holiday-in-goa-10-experiences-to-add-to-your-itinerary.jpeg'
 import img45 from '../assets/blog/card/yacht-ride-in-goa-with-friends-why-it-belongs-on-your-itinerary.jpeg'
+import img48 from '../assets/blog/card/catamaran.jpeg'
+import img49 from "../assets/blog/card/unveiling-the-superiority-of-yacht-club-goa.png"
+import img50 from "../assets/blog/card/unveiling-the-superiority-of-yacht-club-goa.png"
 
 //Blog Content Images
 import blog_content_img1 from '../assets/blog/blog_detail/blog_content_img/the-ultimate-guide-to-yachts-in-goa-img1.jpeg'
@@ -11286,6 +11289,488 @@ export const BlogDetail = [
       { id: 4, tag_name: 'Sunset Cruise Goa' },
       { id: 5, tag_name: 'Private Yacht Goa' },
       { id: 6, tag_name: 'Yacht Ride Goa' },
+      { id: 7, tag_name: 'Yacht Club' }
+    ]
+  },
+  {
+    id: 48,
+    img: img48,
+    alt: "What is a Catamaran? How it Differs from a Traditional Yacht",
+    name: "What is a Catamaran? How it Differs from a Traditional Yacht",
+    param: "what-is-a-catamaran-how-it-differs-from-a-traditional-yacht",
+    meta_title: "Catamaran vs Yacht: What's the Difference?",
+    meta_description: "What is a catamaran and how is it different from a traditional yacht? Compare stability, deck space, performance and cost before booking in Goa.",
+    date: '2026-04-25',
+    admin_name: 'Yacht Club',
+    blog_info:
+      <>
+        <h3> What is a Catamaran? How it Differs from a Traditional Yacht </h3>
+ 
+        <p>
+          When you picture a yacht, you probably imagine a beautiful boat cruising across the water, with comfortable seating, open views and plenty of space to relax. But did you know that not all yachts are built the same way?
+        </p>
+ 
+        <p>
+          One type of vessel you may come across while exploring yacht experiences is a catamaran. Known for its distinctive design, it offers a different experience from many traditional single-hull boats.
+        </p>
+ 
+        <p>
+          So, what is a catamaran? How does it differ from a traditional yacht, and which should you choose for your next boating experience in Goa? Let's find out.
+        </p>
+ 
+        <h3> What is a Catamaran? </h3>
+ 
+        <p>
+          A catamaran is a boat or vessel with two parallel hulls connected by a central deck or structure. Unlike a conventional monohull boat, which has one main hull, a catamaran has two. This twin-hull design creates a wider platform and influences the vessel's stability, layout and movement on the water.
+        </p>
+ 
+        <p>
+          Catamarans come in different sizes. Some are small sailing boats, while others are larger vessels designed for leisure trips and cruising. Sailing catamarans use sails for propulsion, while power catamarans rely on engines.
+        </p>
+ 
+        <h3> How is a Catamaran Different From a Traditional Yacht? </h3>
+ 
+        <p>
+          The main difference is the hull design. Most traditional monohull yachts have one main hull, while catamarans have two. This difference can affect stability, deck space and the overall boating experience. Here's a quick comparison:
+        </p>
+ 
+        <ul>
+          <li><strong>Hull design:</strong> A catamaran has two parallel hulls. A traditional monohull yacht has one main hull.</li>
+          <li><strong>Stability:</strong> A catamaran's wide stance can reduce rolling in many conditions. A monohull's movement depends on the vessel's design and sea conditions.</li>
+          <li><strong>Deck space:</strong> A catamaran often offers a wide deck and open communal areas. On a monohull, space varies depending on size and layout.</li>
+          <li><strong>Movement on water:</strong> A catamaran usually experiences less side-to-side rolling. A monohull may have more noticeable rolling in certain conditions.</li>
+          <li><strong>Interior layout:</strong> A catamaran may offer cabins or living spaces across the hulls and central structure. A monohull arranges its interior space within one hull.</li>
+          <li><strong>Best suited for:</strong> Both can be used for leisure cruising, group outings and sailing, depending on the model.</li>
+        </ul>
+ 
+        <p>
+          These are general differences, not fixed rules. The vessel's design, size, weather and operating conditions all influence its performance.
+        </p>
+ 
+        <h3> 1. Stability and Comfort </h3>
+ 
+        <p>
+          Catamarans are popular partly because their twin-hull design creates a wide platform that can reduce side-to-side rolling in many conditions. However, they are not completely motion-free. Waves, wind and the vessel's design still affect how they move.
+        </p>
+ 
+        <p>
+          Traditional monohull yachts can experience more noticeable rolling in some conditions, although many are designed to provide a comfortable cruising experience.
+        </p>
+ 
+        <p>
+          Which is better? If you prefer a wider platform and potentially less rolling, a catamaran may appeal to you. If you're prone to seasickness, remember that either type of boat can cause discomfort.
+        </p>
+ 
+        <h3> 2. Space and Layout </h3>
+ 
+        <p>
+          Space matters when you're spending several hours on the water. Catamarans often have broad decks that provide room to sit together, move around and enjoy the views. Depending on the model, they may also have separate lounging areas or cabins.
+        </p>
+ 
+        <p>
+          Traditional yachts vary considerably. A larger monohull may have spacious interiors and outdoor seating, while a smaller one may offer a more compact layout. If you're planning a group outing, birthday celebration or family trip, check the seating arrangement, shaded areas, washroom facilities and available space before booking.
+        </p>
+ 
+        <h3> 3. Sailing and Performance </h3>
+ 
+        <p>
+          Catamarans and monohull yachts can behave differently while sailing. A sailing catamaran can offer good stability and, depending on its design, speed advantages in certain conditions. Traditional monohull sailing yachts have different handling characteristics and may lean to one side when sailing under wind pressure.
+        </p>
+ 
+        <p>
+          However, catamarans are not automatically faster than monohulls. Performance depends on the individual vessel, its design and the conditions on the water. For a leisure trip, focus on the route, duration, onboard comfort and overall experience rather than technical performance alone.
+        </p>
+ 
+        <h3> 4. Cost and Maintenance </h3>
+ 
+        <p>
+          Is a catamaran more expensive than a traditional yacht? There isn't one answer. Purchase, maintenance and charter costs depend on the vessel's size, age, design, engine or sailing setup, facilities and operating expenses.
+        </p>
+ 
+        <p>
+          For holidaymakers, the more useful question is how much the trip costs and what's included. Before booking, confirm the total price, trip duration, guest capacity, crew and fuel arrangements, food options and any additional charges.
+        </p>
+ 
+        <h3> Which is Better for a Yacht Experience in Goa? </h3>
+ 
+        <p>
+          The right choice depends on what you want from your day on the water. A <span className={styles.orange}>catamaran in Goa</span> may suit you if you prefer a wide deck and an open layout. A traditional monohull yacht may be a better fit if you prefer its design, layout or the experience offered by that particular vessel. Consider your plans:
+        </p>
+ 
+        <ul>
+          <li><strong>For couples:</strong> Look for comfortable seating, privacy and suitable timings.</li>
+          <li><strong>For families:</strong> Check guest capacity, safety arrangements, shaded seating and onboard facilities.</li>
+          <li><strong>For groups of friends:</strong> Consider deck space, seating and music arrangements.</li>
+          <li><strong>For special occasions:</strong> Ask about decorations, food and other arrangements before booking.</li>
+        </ul>
+ 
+        <p>
+          Compare the actual vessels available rather than assuming one type is always better.
+        </p>
+ 
+        <h3> What Should You Check Before Booking? </h3>
+ 
+        <p>
+          Before booking a catamaran or traditional <span className={styles.orange}>yacht in Goa</span>, use this quick checklist:
+        </p>
+ 
+        <ul>
+          <li><strong>Confirm the vessel type:</strong> Find out whether you're booking a catamaran, monohull yacht or another type of boat.</li>
+          <li><strong>Check capacity:</strong> Make sure the vessel can accommodate your group comfortably and within its permitted limit.</li>
+          <li><strong>Understand the inclusions:</strong> Confirm the duration, crew, fuel arrangements and additional services.</li>
+          <li><strong>Ask about safety:</strong> Check the safety equipment, crew arrangements and weather-related cancellation policy.</li>
+          <li><strong>Choose your timing:</strong> Decide whether a daytime or sunset experience suits your plans.</li>
+          <li><strong>Discuss special requests:</strong> Confirm arrangements for birthdays, celebrations or family outings in advance.</li>
+        </ul>
+ 
+        <p>
+          A little preparation helps you choose an experience that meets your expectations.
+        </p>
+ 
+        <h3> Explore Yacht Experiences With Yacht Club Goa </h3>
+ 
+        <p>
+          Planning a day on the water? Yacht Club Goa is worth exploring when comparing options for a leisure outing or special occasion. Discuss your preferred experience, group size, timing and budget to understand which available option best suits your plans.
+        </p>
+ 
+        <p>
+          Whether you're planning a relaxed outing with friends, a special day with your partner or a family experience, choosing the right vessel starts with knowing what matters most to you.
+        </p>
+ 
+        <h3> Final Thoughts </h3>
+ 
+        <p>
+          A catamaran differs from a traditional monohull yacht mainly because of its two-hull design. This can influence stability, deck space and handling, but the experience ultimately depends on the individual vessel and the conditions on the water. Neither type is automatically better for every passenger or occasion.
+        </p>
+ 
+        <p>
+          If you're planning a yacht experience in Goa, compare the available options, check the onboard facilities and choose a vessel that suits your group and itinerary.
+        </p>
+ 
+        <p>
+          Ready to plan your next outing on the water? Contact Yacht Club Goa to explore available <span className={styles.orange}>yacht rental in Goa</span> options and find one that fits your plans.
+        </p>
+      </>,
+    tag1: [
+      { id: 1, tag_name: 'Catamaran Goa' },
+      { id: 2, tag_name: 'Catamaran vs Yacht' },
+      { id: 3, tag_name: 'Yacht in Goa' },
+      { id: 4, tag_name: 'Private Yacht Goa' },
+      { id: 5, tag_name: 'Goa Yacht Rental' },
+      { id: 6, tag_name: 'Yacht Guide' },
+      { id: 7, tag_name: 'Yacht Club' }
+    ]
+  },
+  {
+    id: 49,
+    img: img49,
+    alt: "A New Year Holiday in Goa Beyond the Usual Tourist Attractions",
+    name: "A New Year Holiday in Goa Beyond the Usual Tourist Attractions",
+    param: "a-new-year-holiday-in-goa-beyond-the-usual-tourist-attractions",
+    meta_title: "New Year in Goa: Experiences Beyond the Usual Spots",
+    meta_description: "Planning a New Year holiday in Goa? Go beyond the usual parties with creative workshops, local culture, yacht rides and tips on what to book early.",
+    date: '2026-04-25',
+    admin_name: 'Yacht Club',
+    blog_info:
+      <>
+        <h3> A New Year Holiday in Goa Beyond the Usual Tourist Attractions </h3>
+ 
+        <p>
+          Imagine welcoming the New Year in Goa without rushing between crowded beaches, packed parties and long queues at popular restaurants. Instead, picture discovering a charming local art studio, exploring a neighbourhood you've never visited or spending an afternoon out on the water with your favourite people.
+        </p>
+ 
+        <p>
+          Goa has plenty to offer beyond its famous nightlife and tourist hotspots. And if you're visiting during the New Year holidays, it's the perfect opportunity to try something different, whether that means exploring local culture, finding a new favourite experience or simply enjoying the state at your own pace.
+        </p>
+ 
+        <p>
+          If you're planning a getaway with friends, your partner or family, here are some ways to make your New Year holiday in Goa feel fresh, memorable and a little less predictable.
+        </p>
+ 
+        <h3> 1. Discover Goa's Creative Side </h3>
+ 
+        <p>
+          Beyond its beaches and nightlife, Goa has a thriving community of artists, craftspeople and independent creators. Look for pottery workshops, art sessions, craft stores or local exhibitions during your visit. These experiences offer a chance to learn something new while discovering a side of Goa that many visitors overlook.
+        </p>
+ 
+        <p>
+          You could also explore independent boutiques and studios selling locally made products, from handmade jewellery to home décor. Check local listings for workshops and events taking place during your travel dates, as availability can vary during the holiday season.
+        </p>
+ 
+        <h3> 2. Make New Year's Eve Easier to Navigate </h3>
+ 
+        <p>
+          The period around December 31 can be particularly busy in Goa. Popular venues fill up, restaurants may require reservations, and road journeys can take longer than expected. The best way to manage this is to plan your evening around one main activity rather than trying to fit several stops into a few hours.
+        </p>
+ 
+        <p>
+          If you're attending a ticketed event or booking a special dinner, confirm the details beforehand. Choose transport arrangements that suit your plans and allow extra time to reach your destination. You'll spend less time managing logistics and more time enjoying the celebrations.
+        </p>
+ 
+        <h3> 3. Explore Goa Through Its Local Culture </h3>
+ 
+        <p>
+          If you're interested in understanding Goa beyond its tourist attractions, consider experiences connected to its cultural heritage. Depending on what's available, you could join a guided heritage walk, explore traditional architecture or attend a local cultural event. These activities can help you understand the influences that have shaped Goa's food, traditions and communities.
+        </p>
+ 
+        <p>
+          This is also a good option for repeat visitors who have already explored the major landmarks and want to discover something less familiar. Choose an experience that matches your interests instead of trying to cover several places in one day.
+        </p>
+ 
+        <h3> 4. Choose a Celebration That Suits You </h3>
+ 
+        <p>
+          Not everyone wants a loud party to welcome the New Year. Some people prefer a relaxed dinner, others enjoy celebrating with a group of friends, and some would rather spend the evening with family.
+        </p>
+ 
+        <p>
+          Think about the kind of celebration you'll genuinely enjoy. A carefully planned dinner, a small private gathering or a special daytime activity can be just as meaningful as a large event. If you're travelling with a group, agree on the main plan in advance. It makes organising the evening easier, particularly when everyone has different preferences.
+        </p>
+ 
+        <h3> 5. Take Your Goa Holiday Out on the Water </h3>
+ 
+        <p>
+          One way to make your New Year trip different is to experience Goa from the water rather than spending the entire holiday exploring on land. A <span className={styles.orange}>yacht ride in Goa</span> offers an opportunity to enjoy the coastline from a different perspective. Depending on the vessel and package, you may be able to choose a daytime outing or a <span className={styles.orange}>sunset cruise in Goa</span>.
+        </p>
+ 
+        <p>It can be a good fit for several occasions:</p>
+ 
+        <ul>
+          <li><strong>Couples:</strong> Add a scenic experience to a romantic getaway.</li>
+          <li><strong>Families:</strong> Plan an activity that brings everyone together.</li>
+          <li><strong>Friends:</strong> Enjoy a group outing away from the usual party scene.</li>
+          <li><strong>Special celebrations:</strong> Explore options for birthdays, anniversaries or other occasions during your trip.</li>
+        </ul>
+ 
+        <p>
+          You don't need to book a yacht for New Year's Eve itself. Scheduling the outing earlier in your holiday can give you more flexibility and leave the evening free for other plans. Before booking, confirm the available dates, departure point, trip duration, guest capacity and onboard facilities.
+        </p>
+ 
+        <h3> 6. Leave Space for Unplanned Discoveries </h3>
+ 
+        <p>
+          Some holiday experiences are better when you don't schedule every detail. Leave a few hours free to explore an area that catches your attention, stop at an interesting local shop or enjoy a leisurely meal without rushing to the next destination.
+        </p>
+ 
+        <p>
+          This is especially useful during the New Year period, when traffic and crowds can disrupt tightly planned schedules. Rather than measuring your trip by the number of places you visit, focus on choosing experiences you'll genuinely remember.
+        </p>
+ 
+        <h3> 7. What to Book Before Your Trip </h3>
+ 
+        <p>
+          You don't need to plan every hour of your holiday, but a few advance arrangements can make a significant difference:
+        </p>
+ 
+        <ul>
+          <li><strong>Accommodation:</strong> Reserve early if you have a preferred area or property.</li>
+          <li><strong>New Year's Eve plans:</strong> Check entry requirements, reservations and event timings.</li>
+          <li><strong>Transport:</strong> Allow extra travel time during peak holiday dates.</li>
+          <li><strong>Yacht experience:</strong> Confirm availability, pricing, inclusions and cancellation terms.</li>
+          <li><strong>Local activities:</strong> Check opening hours and advance booking requirements.</li>
+        </ul>
+ 
+        <p>
+          Once these essentials are sorted, keep the rest of your itinerary flexible.
+        </p>
+ 
+        <h3> Plan Your Yacht Outing With Yacht Club Goa </h3>
+ 
+        <p>
+          If you'd like to include a yacht experience in your New Year getaway, Yacht Club Goa is worth exploring. Discuss your preferred date, group size and requirements to find an available option that suits your plans.
+        </p>
+ 
+        <p>
+          Whether you're organising a couple's outing, a family experience or a day with friends, checking the details in advance can help you choose appropriately. A <span className={styles.orange}>private yacht in Goa</span> can be one distinctive part of your holiday without requiring you to reorganise your entire itinerary around it.
+        </p>
+ 
+        <h3> Make This New Year in Goa Different </h3>
+ 
+        <p>
+          Goa offers plenty of ways to welcome the New Year beyond its popular parties and tourist attractions. Discover its creative side, explore local culture and choose activities that match your interests.
+        </p>
+ 
+        <p>
+          If you're planning a New Year holiday in Goa, consider adding a yacht experience to your plans for a different perspective on the coastline. Ready to include a yacht outing in your holiday? Contact Yacht Club Goa to explore available <span className={styles.orange}>yacht rental in Goa</span> options and plan a memorable start to the New Year.
+        </p>
+      </>,
+    tag1: [
+      { id: 1, tag_name: 'New Year in Goa' },
+      { id: 2, tag_name: 'Goa in December' },
+      { id: 3, tag_name: 'Things to Do in Goa' },
+      { id: 4, tag_name: 'Yacht Ride Goa' },
+      { id: 5, tag_name: 'Sunset Cruise Goa' },
+      { id: 6, tag_name: 'Goa Yacht Rental' },
+      { id: 7, tag_name: 'Yacht Club' }
+    ]
+  },
+  {
+    id: 50,
+    img: img44,
+    alt: "A Diwali Getaway in Goa: Beyond the Usual",
+    name: "A Diwali Getaway in Goa: Beyond the Usual",
+    param: "a-diwali-getaway-in-goa-beyond-the-usual",
+    meta_title: "Diwali in Goa: A Getaway Beyond the Usual",
+    meta_description: "Planning a Diwali trip to Goa? Discover Narakasura traditions, hidden neighbourhoods, Goan food and private yacht outings, plus festive travel tips.",
+    date: '2026-04-25',
+    admin_name: 'Yacht Club',
+    blog_info:
+      <>
+        <h3> A Diwali Getaway in Goa: Beyond the Usual </h3>
+ 
+        <p>
+          Diwali is usually about lights, sweets, family gatherings and celebrations at home. But what if you spent this festive season a little differently? Imagine taking a break from your usual routine, travelling to Goa and celebrating Diwali with a mix of relaxation, new experiences and time with your favourite people.
+        </p>
+ 
+        <p>
+          Goa during Diwali offers more than just a holiday by the sea. You can explore charming neighbourhoods, enjoy local celebrations, discover new places to eat and take a break from the everyday rush. And if you're looking for something a little different this year, a yacht outing could be the perfect addition to your plans.
+        </p>
+ 
+        <p>
+          Whether you're travelling with friends, your partner or family, here's how to make your Diwali getaway in Goa feel special without following the usual tourist itinerary.
+        </p>
+ 
+        <h3> Discover a Different Side of Goa </h3>
+ 
+        <p>
+          Goa's popular beaches and nightlife are always worth experiencing, but there's plenty more to discover if you're willing to explore a little further.
+        </p>
+ 
+        <p>
+          Spend an afternoon walking through the colourful streets of Fontainhas in Panjim, visit a local art gallery or browse small boutiques selling handmade products. You could also explore Goa's quieter villages, where traditional homes, old churches and peaceful surroundings offer a different side of the state.
+        </p>
+ 
+        <p>
+          Diwali is a great time to slow down and enjoy these little discoveries. Instead of trying to visit as many places as possible, pick a few that interest you and give yourself time to enjoy them.
+        </p>
+ 
+        <p>
+          <strong>Travel tip:</strong> Plan your outings around the places you genuinely want to explore rather than squeezing too many stops into one day. A relaxed itinerary often makes for a better holiday.
+        </p>
+ 
+        <h3> Experience Diwali the Goan Way </h3>
+ 
+        <p>
+          Diwali in Goa has its own character. Along with lights, sweets and family celebrations, the festival is associated with the tradition of burning Narakasura effigies on the eve of Diwali. In many parts of Goa, communities prepare large effigies that are displayed and burnt as part of the celebrations. The atmosphere can be lively, with people gathering to take part in this local tradition.
+        </p>
+ 
+        <p>
+          If you're visiting during the festival, ask your accommodation or local hosts about celebrations happening nearby. You may discover community events and traditions that you wouldn't normally come across on a typical Goa holiday. Remember that celebrations vary from place to place, so check local timings and arrangements before heading out.
+        </p>
+ 
+        <h3> Take Your Diwali Holiday Out on the Water </h3>
+ 
+        <p>
+          A holiday becomes memorable when you do something you wouldn't usually fit into your everyday routine. And if you're looking to add a unique experience to your Diwali trip to Goa, consider spending some time on a <span className={styles.orange}>private yacht in Goa</span>.
+        </p>
+ 
+        <p>
+          A yacht outing offers a different way to enjoy Goa. Instead of spending the entire day travelling between beaches and restaurants, you can head out on the water, enjoy the coastal views and spend quality time with your group. It's an option worth considering for couples who want a peaceful outing, families looking for a special holiday activity or friends who want to celebrate together.
+        </p>
+ 
+        <p>
+          Depending on the yacht and package you choose, your outing could include time to relax, take photographs, enjoy music or simply admire the views from the water. You can explore the available experiences with Yacht Club Goa and choose an option that suits your group, schedule and budget.
+        </p>
+ 
+        <p>
+          The best part? You don't need a special occasion to enjoy a yacht ride. Sometimes, doing something different is reason enough.
+        </p>
+ 
+        <h3> Celebrate the Festive Season With Your Favourite People </h3>
+ 
+        <p>
+          Diwali doesn't have to mean spending every evening at home or attending the same kind of gathering. If you're travelling with friends, Goa gives you the chance to celebrate in your own way. You could plan a relaxed dinner, explore a new café, organise a small festive get-together at your accommodation or spend an afternoon enjoying an activity together.
+        </p>
+ 
+        <p>
+          For a more unusual group outing, a <span className={styles.orange}>yacht party in Goa</span> can be a fun addition to your holiday plans. It gives everyone time to catch up away from the usual distractions and enjoy a different setting.
+        </p>
+ 
+        <p>
+          If you're planning a yacht outing for a group, confirm the available capacity, inclusions and timings before booking. It's also worth booking early if your trip falls during a busy holiday period.
+        </p>
+ 
+        <h3> Add Local Flavours to Your Goa Getaway </h3>
+ 
+        <p>
+          No Goa getaway feels complete without exploring its food scene. Use your Diwali break to try something beyond your usual favourites. Depending on where you're staying, you could look for traditional Goan dishes, visit a neighbourhood bakery, explore local cafés or enjoy a meal at a restaurant you've been meaning to try.
+        </p>
+ 
+        <p>
+          If you're travelling with family, you could also make time for a festive meal together. For a trip with friends, keep things casual and explore different places over a few days. You don't need to plan every meal in advance. Having a few places in mind while leaving room for spontaneous discoveries can make your food experiences more enjoyable.
+        </p>
+ 
+        <h3> A Few Tips for Planning Your Diwali Trip </h3>
+ 
+        <p>
+          Diwali is a popular travel period, and Goa can get busy around the festive season. A little planning can help you enjoy your trip without spending too much time figuring out logistics. Here are a few things to keep in mind:
+        </p>
+ 
+        <ul>
+          <li><strong>Book your stay early:</strong> Choose accommodation based on the areas you want to explore and the kind of holiday you prefer.</li>
+          <li><strong>Reserve popular experiences:</strong> If a yacht outing is on your list, check availability and book ahead where possible.</li>
+          <li><strong>Allow for travel time:</strong> Traffic can be heavier during busy holiday periods, so avoid planning activities too close together.</li>
+          <li><strong>Check local events:</strong> Confirm timings and locations for Diwali celebrations before making plans.</li>
+          <li><strong>Keep your itinerary flexible:</strong> Leave some time for unexpected discoveries instead of planning every hour.</li>
+        </ul>
+ 
+        <p>
+          A well-planned trip doesn't have to be packed with activities. The aim is to enjoy your time in Goa without feeling rushed.
+        </p>
+ 
+        <h3> Make Your Diwali Holiday Memorable With Yacht Club Goa </h3>
+ 
+        <p>
+          Sometimes, the best holidays are the ones that take you out of your usual routine. This Diwali, Goa offers the chance to enjoy festive traditions, discover new places, spend time with loved ones and try experiences that make the break feel different.
+        </p>
+ 
+        <p>
+          If you're looking to add something memorable to your itinerary, a <span className={styles.orange}>yacht ride in Goa</span> is one way to see the state from another perspective. Whether you're planning a couple's escape, a family holiday or a trip with friends, Yacht Club Goa can help you explore yacht experiences that fit your plans.
+        </p>
+ 
+        <p>
+          This festive season, go beyond the usual itinerary. Make room for a new experience, enjoy the journey and give yourself something different to remember long after the holiday ends. Planning a Diwali trip to Goa? Explore Yacht Club Goa's <span className={styles.orange}>yacht rental in Goa</span> options and find an experience for your festive getaway.
+        </p>
+ 
+        <h3> Frequently Asked Questions </h3>
+ 
+        <h3 className={styles.faq_h3}> Is Diwali a good time to visit Goa? </h3>
+ 
+        <p>
+          Yes, Diwali is a good time to visit Goa if you want to experience local festivities, explore the state and enjoy a holiday with family or friends. Check the weather forecast and local event schedules before travelling.
+        </p>
+ 
+        <h3 className={styles.faq_h3}> What are some things to do in Goa during Diwali? </h3>
+ 
+        <p>
+          You can explore local neighbourhoods, enjoy Goan food, attend community celebrations, visit popular attractions or plan a yacht outing for a different experience.
+        </p>
+ 
+        <h3 className={styles.faq_h3}> Can I book a yacht in Goa during Diwali? </h3>
+ 
+        <p>
+          Yes, you can explore yacht rental options in Goa during the festive season. It's best to check availability and book in advance, as holidays can be a busy time.
+        </p>
+ 
+        <h3 className={styles.faq_h3}> Is a yacht ride in Goa suitable for families and groups? </h3>
+ 
+        <p>
+          A yacht outing can be a great option for families, couples and groups of friends. Check the yacht's passenger capacity, available facilities and booking inclusions to find an experience that suits your group.
+        </p>
+ 
+        <h3 className={styles.faq_h3}> How early should I book a yacht in Goa for Diwali? </h3>
+ 
+        <p>
+          Booking a few weeks in advance is a good idea, particularly if you have specific dates or timings in mind. Contact Yacht Club Goa to confirm availability and discuss suitable options.
+        </p>
+      </>,
+    tag1: [
+      { id: 1, tag_name: 'Diwali in Goa' },
+      { id: 2, tag_name: 'Things to Do in Goa' },
+      { id: 3, tag_name: 'Private Yacht Goa' },
+      { id: 4, tag_name: 'Yacht Ride Goa' },
+      { id: 5, tag_name: 'Yacht Party Goa' },
+      { id: 6, tag_name: 'Goa Yacht Rental' },
       { id: 7, tag_name: 'Yacht Club' }
     ]
   },

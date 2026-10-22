@@ -45,6 +45,7 @@ import img44 from '../assets/blog/card/is-a-yacht-ride-in-goa-good-for-families.
 import img45 from '../assets/blog/card/yacht-ride-in-goa-with-friends-why-it-belongs-on-your-itinerary.jpeg'
 import img46 from '../assets/blog/card/goa-in-december-for-couples-fun-things-to-do-together.jpeg'
 import img47 from '../assets/blog/card/christmas-holiday-in-goa-10-experiences-to-add-to-your-itinerary.jpeg'
+import img48 from '../assets/blog/card/catamaran.jpeg'
 
 
 export const BlogList = [
@@ -471,5 +472,32 @@ export const BlogList = [
         admin: 'Yacht Club',
         title: "Christmas Holiday in Goa: 10 Experiences to Add to Your Itinerary",
         param: "christmas-holiday-in-goa-10-experiences-to-add-to-your-itinerary"
+    },
+    {
+        id: 48,
+        img: img48,
+        alt: "What is a Catamaran? How it Differs from a Traditional Yacht",
+        date: '2026-05-05', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "What is a Catamaran? How it Differs from a Traditional Yacht",
+        param: "what-is-a-catamaran-how-it-differs-from-a-traditional-yacht"
+    },
+    {
+        id: 49,
+        img: img13,
+        alt: "A New Year Holiday in Goa Beyond the Usual Tourist Attractions",
+        date: '2026-05-25', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "A New Year Holiday in Goa Beyond the Usual Tourist Attractions",
+        param: "a-new-year-holiday-in-goa-beyond-the-usual-tourist-attractions"
+    },
+    {
+        id: 50,
+        img: img44,
+        alt: "A Diwali Getaway in Goa: Beyond the Usual",
+        date: '2026-06-05', // YYYY-MM-dd
+        admin: 'Yacht Club',
+        title: "A Diwali Getaway in Goa: Beyond the Usual",
+        param: "a-diwali-getaway-in-goa-beyond-the-usual"
     },
 ]
