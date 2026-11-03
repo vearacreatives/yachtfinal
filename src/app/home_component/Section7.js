@@ -1,5 +1,5 @@
+"use client";
 
-'use client'
 import React, { useState } from 'react'
 
 import Image from 'next/image'
@@ -29,7 +29,7 @@ import { Section7_data } from './Section7_data'
 
 //Light Box
 // import 'lightbox.js-react/dist/index.css'
-import '../../../node_modules/lightbox.js-react/dist/index.css'
+import 'lightbox.js-react/dist/index.css'
 //End of Light Box
 
 
@@ -73,7 +73,7 @@ function Section7() {
              </p>
 
              <h2 className='sec7_main_title'>
-             From our top clients experience
+             Explore yacht experiences in Goa
              </h2>
             </div>
 
@@ -160,7 +160,7 @@ function Section7() {
         </Row>
             </Container>
 
-        <Image src={bg1} alt="Destination Bachelorette Party in Goa" className="sec7_bg1_img"/>
+        <Image src={bg1} alt="" className="sec7_bg1_img"/>
 
     </section>
     </>

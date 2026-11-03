@@ -63,7 +63,7 @@ export const BlogDetail = [
     img: '/blogDetail/private-cruising-on-a-luxury-yacht-in-goa.jpeg',
     alt:"Private Cruising on a Luxury Yacht in Goa",
     name: 'Private Cruising on a Luxury Yacht in Goa',
-    param: 'private-cruising-on-a-luxury-yacht-in-goa',
+    param: "private-cruising-on-a-luxury-yacht-in-goa",
     meta_title: 'Indulge in Private Yachting Experiences in Goa',
     meta_description: 'Set Sail on Serenity:A Guide to Private Cruising on a Luxury Yacht in Goa',
     date: '2024-05-06',//YYYY-MM-dd
@@ -71,7 +71,7 @@ export const BlogDetail = [
     blog_info: <>
       <p>
         <b>Set Sail on Serenity: </b> A Guide to Private Cruising on a Luxury Yacht in Goa
-        Imagine this: the gentle caress of the Goan breeze on your face, the turquoise waters of the Arabian Sea shimmering below, and the rhythmic lap of waves against the hull of your private yacht. Sounds idyllic, doesn't it? Well, with <span className={styles.orange}>Yacht Club Goa</span> , your dream of private cruising on a luxury yacht in Goa can become a reality.
+        Imagine this: the gentle caress of the Goan breeze on your face, the turquoise waters of the Arabian Sea shimmering below, and the rhythmic lap of waves against the hull of your <Link href="/yacht-sail">private yacht</Link>. Sounds idyllic, doesn't it? Well, with <span className={styles.orange}>Yacht Club Goa</span> , your dream of private cruising on a luxury yacht in Goa can become a reality.
       </p>
       <h3>Why Choose a Private Yacht Charter in Goa?</h3>
       <p>
@@ -87,7 +87,7 @@ export const BlogDetail = [
         </p>
 
         <p><b>Unforgettable Experiences:</b>
-        From dolphin spotting and secluded beach picnics to romantic sunset cruises and exhilarating water sports, create memories that will last a lifetime.
+        From dolphin spotting and secluded beach picnics to romantic <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruises</Link> and exhilarating water sports, create memories that will last a lifetime.
         </p>
 
         <p><b>Unwavering Flexibility:</b>
@@ -246,7 +246,7 @@ export const BlogDetail = [
     img: '/blogDetail/private-yacht-charter-goa-unwind-in-paradise-on-a-luxurious-escape.jpeg',
     alt:"Unwind in Paradise on a Luxurious Escape",
     name: 'Private Yacht Charter Goa: Unwind in Paradise on a Luxurious Escape',
-    param: 'private-yacht-charter-goa-unwind-in-paradise-on-a-luxurious-escape',
+    param: "private-yacht-charter-goa-unwind-in-paradise-on-a-luxurious-escape",
     meta_title: 'Luxury Yacht Rental Goa: Sail the Azure Waters in Unforgettable Style',
     meta_description: 'Escape the ordinary with a private yacht charter in Goa! YachtClubGoa.com offers luxury yachts, bespoke experiences, and unforgettable memories on the stunning Konkan Coast. Explore hidden coves, celebrate in style, and unwind in paradise. Contact us today! ',
     date: '2024-05-06',//YYYY-MM-dd
@@ -254,7 +254,7 @@ export const BlogDetail = [
     blog_info: <>
       <p>
         <b>Imagine This: </b>
-        The sun dips below the horizon, painting the Goan sky in a fiery palette of orange and pink. Gentle waves lap against the hull of your private yacht, a luxurious vessel that feels more like a palace on water. A cool breeze carries the scent of the ocean, mingling with the aroma of freshly prepared seafood sizzling on the onboard grill. You raise a crystal glass of champagne, a toast to the unforgettable memories you're creating on this private escape.
+        The sun dips below the horizon, painting the Goan sky in a fiery palette of orange and pink. Gentle waves lap against the hull of your <Link href="/yacht-sail">private yacht</Link>, a luxurious vessel that feels more like a palace on water. A cool breeze carries the scent of the ocean, mingling with the aroma of freshly prepared seafood sizzling on the onboard grill. You raise a crystal glass of champagne, a toast to the unforgettable memories you're creating on this private escape.
       </p>
       <p>
         This isn't just a fantasy; it's the reality that awaits you with  <span className={styles.orange}><span className={styles.orange}>Yacht Club Goa</span> </span>, your gateway to experiencing Goa's breathtaking beauty in unparalleled luxury.
@@ -389,7 +389,7 @@ export const BlogDetail = [
     img: '/blogDetail/yacht-bliss-and-beyond-why-goa-in-april-may-is-your-ideal-escape.jpeg',
     alt:"Unveiling the Shoulder Season's Charm",
     name: "Why Goa in April-May is a Good Holiday Idea: Unveiling the Shoulder Season's Charm",
-    param: 'yacht-bliss-and-beyond-why-goa-in-april-may-is-your-ideal-escape',
+    param: "yacht-bliss-and-beyond-why-goa-in-april-may-is-your-ideal-escape",
     meta_title: 'Goa in April-May: Beyond the Peak Awaits',
     meta_description: "Escape the crowds & discover Goa's hidden charm! Sunshine, savings & adventure await in April-May. Explore beaches, festivals & nature's beauty.",
     date: '2024-05-06',//YYYY-MM-dd
@@ -445,7 +445,7 @@ export const BlogDetail = [
       </ul>
       <p>
         <b>So, ditch the peak-season chaos and embrace the beauty of Goa in April-May.  <span className={styles.orange}>Yacht Club
-          Goa</span>, your one-stop shop for  <span className={styles.orange}>luxury yacht rentals</span>, awaits to whisk you away on an
+          Goa</span>, your one-stop shop for  <span className={styles.orange}>luxury <Link href="/yacht-sail">yacht rentals</Link></span>, awaits to whisk you away on an
           <span className={styles.orange}> unforgettable Goan adventure!</span></b>
       </p>
 
@@ -487,7 +487,7 @@ export const BlogDetail = [
     img: '/blogDetail/yacht-on-rent-in-goa-price.jpg',
     alt:"Your Guide to Yacht Rentals in Goa",
     name: "Set Sail on Luxury: Your Guide to Yacht Rentals in Goa (Prices Included!)",
-    param: 'yacht-on-rent-in-goa-price',
+    param: "yacht-on-rent-in-goa-price",
     meta_title: 'Comprehensive Guide to Yacht Rentals and Prices in Goa',
     meta_description: "Dreaming of a luxurious escape on the glistening waters of Goa? Look no further than chartering a yacht! Yachting in Goa offers an unparalleled experience, combining breathtaking scenery, unparalleled comfort, and endless possibilities for creating unforgettable memories.",
     date: '2024-05-10',//YYYY-MM-dd
@@ -551,7 +551,7 @@ export const BlogDetail = [
       <p>
         Imagine this: gentle sea breeze caressing your face, the rhythmic sound of waves
         lapping against the hull, and the endless expanse of the Arabian Sea stretching
-        before you.  <span className={styles.orange}>Yacht rentals in Goa</span> unlock this idyllic scenario, transporting you
+        before you.  <span className={styles.orange}><Link href="/yacht-sail">Yacht rentals</Link> in Goa</span> unlock this idyllic scenario, transporting you
         to a world of serenity and indulgence.
       </p>
 
@@ -820,14 +820,14 @@ export const BlogDetail = [
     img: '/blogDetail/how-to-plan-the-perfect-birthday-party-on-a-yacht-in-goa.jpg',
     alt:"How to Plan the Perfect Birthday Party on a Yacht in Goa",
     name: "How to Plan the Perfect Birthday Party on a Yacht in Goa",
-    param: 'how-to-plan-the-perfect-birthday-party-on-a-yacht-in-goa',
+    param: "how-to-plan-the-perfect-birthday-party-on-a-yacht-in-goa",
     meta_title: 'Plan a Glamorous Birthday Party on a Yacht in Goa',
     meta_description: "Celebrating a birthday on a luxury yacht in Goa is an unforgettable experience.",
     date: '2024-06-10',//YYYY-MM-dd
     admin_name: 'Yacht Club',
     blog_info: <>
       <p>
-        Celebrating a birthday on a luxury yacht in Goa is an unforgettable experience. Here’s a step-by-step guide to help you plan the perfect yacht birthday party.
+        Celebrating a birthday on a luxury yacht in Goa is an unforgettable experience. Here’s a step-by-step guide to help you plan the perfect yacht <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday party</Link>.
       </p>
       <p>
         <b>1. Choose the Right Yacht</b>
@@ -1018,7 +1018,7 @@ export const BlogDetail = [
     img: '/blogDetail/escape-the-ordinary-why-your-next-goa-trip-needs-a-luxury-yacht-adventure.png',
     alt:"Why Your Next Goa Trip Needs a Luxury Yacht Adventure",
     name: "Escape the Ordinary: Why Your Next Goa Trip Needs a Luxury Yacht Adventure",
-    param: 'escape-the-ordinary-why-your-next-goa-trip-needs-a-luxury-yacht-adventure',
+    param: "escape-the-ordinary-why-your-next-goa-trip-needs-a-luxury-yacht-adventure",
     meta_title: 'Discover Luxury Yachting: Your Next Goa Experience',
     meta_description: "Imagine this: the sun warming your skin, the gentle caress of the ocean breeze, and the endless expanse of the Arabian Sea stretching before you. You're not on a crowded beach, but on the private deck of a luxurious yacht, cruising along the stunning Goan coastline. Sounds pretty dreamy, doesn't it?",
     date: '2024-06-24',//YYYY-MM-dd
@@ -1048,7 +1048,7 @@ export const BlogDetail = [
           Crafting Unforgettable Experiences:
         </h3>
         <p>
-          The beauty of a yacht trip lies in its customizability. Unlike pre-packaged tours, you get to dictate the pace and itinerary. Want to spend the day dolphin watching? No problem! Craving a sunset cruise with cocktails and gourmet food? The crew is at your service. You can even anchor at a secluded spot for a private swim or a romantic dinner under the stars. The possibilities are endless, making your yacht experience truly bespoke.
+          The beauty of a yacht trip lies in its customizability. Unlike pre-packaged tours, you get to dictate the pace and itinerary. Want to spend the day dolphin watching? No problem! Craving a <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> with cocktails and gourmet food? The crew is at your service. You can even anchor at a secluded spot for a private swim or a romantic dinner under the stars. The possibilities are endless, making your yacht experience truly bespoke.
 
 
         </p>
@@ -1161,7 +1161,7 @@ export const BlogDetail = [
     img: '/blogDetail/how-to-throw-an-epic-yacht-party-in-goa.png',
     alt:"How to Throw an Epic Yacht Party in Goa",
     name: "How to Throw an Epic Yacht Party in Goa",
-    param: 'how-to-throw-an-epic-yacht-party-in-goa',
+    param: "how-to-throw-an-epic-yacht-party-in-goa",
     meta_title: 'Turn Your Goa Yacht Party Dreams into Reality',
     meta_description: "Goa. The name itself conjures images of sun-drenched beaches, vibrant nightlife, and an infectious party spirit. But what if you could take your Goan experience to a whole new level? Imagine throwing a bash unlike any other, aboard a luxurious yacht cruising the turquoise waters of the Arabian Sea.",
     date: '2024-06-24',//YYYY-MM-dd
@@ -1177,7 +1177,7 @@ export const BlogDetail = [
 
         </h3>
         <p>
-          The foundation of your unforgettable yacht party lies in selecting the right yacht rental company. You don't just want a vessel; you want a partner who prioritizes safety, luxury, and creating an experience that exceeds expectations. Here's where <span className={styles.orange}>Yacht Club Goa</span>  comes in.
+          The foundation of your unforgettable yacht party lies in selecting the right <Link href="/yacht-sail">yacht rental</Link> company. You don't just want a vessel; you want a partner who prioritizes safety, luxury, and creating an experience that exceeds expectations. Here's where <span className={styles.orange}>Yacht Club Goa</span>  comes in.
 
         </p>
 
@@ -1263,7 +1263,7 @@ export const BlogDetail = [
     img: '/blogDetail/unwind-and-sail-away-experience-luxury-with-yacht-hire-in-goa.png',
     alt:"Experience Luxury with Yacht Hire in Goa",
     name: "Unwind and Sail Away: Experience Luxury with Yacht Hire in Goa",
-    param: 'unwind-and-sail-away-experience-luxury-with-yacht-hire-in-goa',
+    param: "unwind-and-sail-away-experience-luxury-with-yacht-hire-in-goa",
     meta_title: 'Luxury Sailing and Yacht Hire in Goa Made Easy',
     meta_description: "Escape the mundane and indulge in a luxurious getaway unlike any other with yacht hire in Goa.",
     date: '2024-07-12',//YYYY-MM-dd
@@ -1287,7 +1287,7 @@ export const BlogDetail = [
           Benefits of hiring a yacht in Goa
         </h3>
         <p>
-        Hiring a yacht in Goa offers a plethora of benefits that make it an exceptional choice for your next getaway. Firstly, it provides an unparalleled level of privacy and exclusivity, allowing you to escape the crowds and enjoy the serene beauty of Goa's coastline in complete seclusion. Whether you're planning a romantic trip, a family vacation, or a corporate event, a yacht charter offers a unique and personalized experience that you simply cannot find in a traditional hotel or resort setting.
+        Hiring a yacht in Goa offers a plethora of benefits that make it an exceptional choice for your next getaway. Firstly, it provides an unparalleled level of privacy and exclusivity, allowing you to escape the crowds and enjoy the serene beauty of Goa's coastline in complete seclusion. Whether you're planning a romantic trip, a family vacation, or a <Link href="/yacht-services-goa/corporate-events-on-yacht-goa">corporate event</Link>, a yacht charter offers a unique and personalized experience that you simply cannot find in a traditional hotel or resort setting.
         </p>
 
         <p>
@@ -1331,7 +1331,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-        In addition to motor and sailing yachts, Goa also offers a range of luxury catamarans and multi-hull vessels. These versatile boats provide increased stability and spacious interiors, making them an excellent choice for larger groups or those seeking a more family-friendly option. Catamarans often feature amenities such as onboard jacuzzis, sun loungers, and even water sports equipment, ensuring that every guest can find their perfect spot to unwind and enjoy the Goan sun.
+        In addition to motor and sailing yachts, Goa also offers a range of luxury <Link href="/yacht-sail/party-catamaran-100-pax">catamarans</Link> and multi-hull vessels. These versatile boats provide increased stability and spacious interiors, making them an excellent choice for larger groups or those seeking a more family-friendly option. Catamarans often feature amenities such as onboard jacuzzis, sun loungers, and even water sports equipment, ensuring that every guest can find their perfect spot to unwind and enjoy the Goan sun.
         </p>
 
         <h3>
@@ -1512,7 +1512,7 @@ export const BlogDetail = [
     img: "/blogDetail/romantic-getaways-exploring-goa's-yacht-experiences-for-couples.png",
     alt:"Exploring Goa's Yacht Experiences for Couples",
     name: "Romantic Getaways: Exploring Goa's Yacht Experiences for Couples",
-    param: "romantic-getaways-exploring-goa's-yacht-experiences-for-couples",
+    param: "romantic-getaways-exploring-goas-yacht-experiences-for-couples",
     meta_title: "Romantic Yacht Journeys for Couples Visiting Goa",
     meta_description: "Escape to paradise with your loved one and indulge in a luxurious yacht experience in Goa. Picture yourself cruising along the shimmering waters of the Arabian Sea as the sun sets, creating a mesmerizing backdrop for romance.",
     date: '2024-07-05',//YYYY-MM-dd
@@ -1524,7 +1524,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-        As the ultimate destination for a romantic getaway, Goa is renowned for its pristine beaches, vibrant nightlife, and delicious cuisine. And what better way to explore this coastal gem than aboard a private yacht? Whether you're seeking a peaceful sunset cruise or a thrilling adventure on the high seas, Goa has something for every couple.
+        As the ultimate destination for a romantic getaway, Goa is renowned for its pristine beaches, vibrant nightlife, and delicious cuisine. And what better way to explore this coastal gem than aboard a private yacht? Whether you're seeking a peaceful <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> or a thrilling adventure on the high seas, Goa has something for every couple.
         </p>
 
         <p>
@@ -1544,7 +1544,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-        Aboard a private yacht, you and your loved one can escape the crowds and enjoy a intimate, personalized experience. The exclusivity of a yacht allows you to enjoy each other's company without distractions, fostering a deeper connection and allowing you to fully immerse yourselves in the moment. Whether you're sipping champagne on the deck, indulging in a gourmet meal prepared by a skilled chef, or simply admiring the breathtaking views, a yacht experience in Goa promises to elevate your romantic getaway to new heights.
+        Aboard a <Link href="/yacht-sail">private yacht</Link>, you and your loved one can escape the crowds and enjoy a intimate, personalized experience. The exclusivity of a yacht allows you to enjoy each other's company without distractions, fostering a deeper connection and allowing you to fully immerse yourselves in the moment. Whether you're sipping champagne on the deck, indulging in a gourmet meal prepared by a skilled chef, or simply admiring the breathtaking views, a yacht experience in Goa promises to elevate your romantic getaway to new heights.
         </p>
 
         <p>
@@ -1774,7 +1774,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-        Another significant advantage of yachting in Goa is the opportunity to indulge in a wide array of water-based activities and experiences. Whether you're an adrenaline junkie seeking thrilling water sports or a leisure-seeker craving a relaxing day on the water, Goa's yachting scene has something to offer. From jet skiing and wakeboarding to fishing and sunset cruises, the options are endless, allowing you to customize your yachting adventure to your heart's content.
+        Another significant advantage of yachting in Goa is the opportunity to indulge in a wide array of water-based activities and experiences. Whether you're an adrenaline junkie seeking thrilling water sports or a leisure-seeker craving a relaxing day on the water, Goa's yachting scene has something to offer. From jet skiing and wakeboarding to fishing and <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruises</Link>, the options are endless, allowing you to customize your yachting adventure to your heart's content.
         </p>
         
         <p>
@@ -1798,7 +1798,7 @@ export const BlogDetail = [
         </p>
         
         <p>
-        For those seeking a more adrenaline-fueled experience, the waters off the coast of North Goa, particularly around the famous beaches of Baga and Calangute, offer ample opportunities for water sports and thrilling yacht excursions. From high-speed boat rides to parasailing and jet skiing, this region is a hub for adventure-seekers looking to make the most of Goa's aquatic playground.
+        For those seeking a more adrenaline-fueled experience, the waters off the coast of North Goa, particularly around the famous beaches of Baga and Calangute, offer ample opportunities for water sports and thrilling yacht excursions. From high-<Link href="/yacht-sail/angel-luxury-speed-boat">speed boat</Link> rides to parasailing and jet skiing, this region is a hub for adventure-seekers looking to make the most of Goa's aquatic playground.
         </p>
 
 
@@ -1819,7 +1819,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-        If you're traveling with family or a group of friends, Goa's yachts can also be transformed into the ultimate party platforms. Many charters offer the option to host private celebrations, such as birthday parties, anniversary gatherings, or corporate events, complete with on-board entertainment, music, and catering. Imagine dancing the night away under the stars, surrounded by the serene beauty of the Arabian Sea.
+        If you're traveling with family or a group of friends, Goa's yachts can also be transformed into the ultimate party platforms. Many charters offer the option to host private celebrations, such as <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday parties</Link>, anniversary gatherings, or corporate events, complete with on-board entertainment, music, and catering. Imagine dancing the night away under the stars, surrounded by the serene beauty of the Arabian Sea.
         </p>
 
         <h3>
@@ -1992,7 +1992,7 @@ export const BlogDetail = [
        anyone looking to explore Goa’s stunning coastline. Whether you’re planning a small celebration, 
        corporate gathering, or a large party, <span className={styles.orange}>Yacht Club Goa</span>  offers a variety of yachts to cater to all 
        needs. Here’s a closer look at the top 5 yachts available for hire at 
-       <Link href='https://yachtclubgoa.com/' target='_blank' className={styles.blog_detail_inner_link}>
+       <Link href='/' target='_blank' className={styles.blog_detail_inner_link}>
        <span className={styles.orange}>Yacht Club Goa</span> 
        </Link>
        </p>
@@ -2224,7 +2224,7 @@ export const BlogDetail = [
         <p>
         For the ultimate party experience on the water, the 95-foot <span className={styles.orange}>Party Catamaran-100 pax</span> is unmatched in size and capacity, 
         accommodating up to 100 guests. This yacht is designed with large-scale events in mind, 
-        offering spacious decks and modern amenities perfect for hosting weddings, corporate events, 
+        offering spacious decks and modern amenities perfect for hosting weddings, <Link href="/yacht-services-goa/corporate-events-on-yacht-goa">corporate events</Link>, 
         or large social gatherings. With a stable platform and open deck, it’s ideal for guests to 
         move around, dance, and enjoy the festivities while surrounded by the beautiful Goan coastline.
         </p>
@@ -2244,7 +2244,7 @@ export const BlogDetail = [
         </h3>
 
         <p>
-        Whether you're looking for an intimate sunset cruise or planning a large-scale celebration, 
+        Whether you're looking for an intimate <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> or planning a large-scale celebration, 
         <span className={styles.orange}>Yacht Club Goa</span>  has a yacht to fit your needs. Each of these yachts combines luxury and 
         functionality, ensuring that your time on Goa’s waters is nothing short of extraordinary. 
         Explore <span className={styles.orange}>Yacht Club Goa</span> ’s fleet and book your ideal yacht at <span className={styles.orange}>Yacht Club Goa</span>  where unforgettable 
@@ -2312,7 +2312,7 @@ export const BlogDetail = [
        <p>
        At <span className={styles.orange}><span className={styles.orange}>Yacht Club Goa</span> ,</span> we understand that no two parties are 
        the same. That's why we offer a range of customizable packages to suit your specific needs and 
-       preferences. Whether you're celebrating a birthday, bachelor/bachelorette party, or corporate 
+       preferences. Whether you're celebrating a birthday, bachelor/<Link href="/yacht-services-goa/bachelorette-party-on-yacht-goa">bachelorette party</Link>, or corporate 
        event, our experienced team will work closely with you to create a memorable experience that 
        exceeds your expectations.
        </p>
@@ -2343,7 +2343,7 @@ export const BlogDetail = [
       </h3>
 
       <p>
-      One of the most significant benefits of hosting a yacht party is the exclusivity it offers. When you book a yacht, you are securing a private space that is entirely yours for the duration of the event. This means you can create a tailor-made experience without the interruptions typically associated with public venues. Imagine celebrating milestones like birthdays, anniversaries, or corporate events in a tranquil environment where you can set your own rules, curate your own playlist, and enjoy privacy with your guests. This level of seclusion is a luxury that adds to the overall enjoyment of the event.
+      One of the most significant benefits of hosting a yacht party is the exclusivity it offers. When you book a yacht, you are securing a private space that is entirely yours for the duration of the event. This means you can create a tailor-made experience without the interruptions typically associated with public venues. Imagine celebrating milestones like birthdays, anniversaries, or <Link href="/yacht-services-goa/corporate-events-on-yacht-goa">corporate events</Link> in a tranquil environment where you can set your own rules, curate your own playlist, and enjoy privacy with your guests. This level of seclusion is a luxury that adds to the overall enjoyment of the event.
       </p>
 
       <p>
@@ -2359,7 +2359,7 @@ export const BlogDetail = [
       </h3>
 
       <p>
-      <span className={styles.orange}><span className={styles.orange}>Yacht Club Goa</span> </span> offers a wide range of yacht party options to cater to various celebrations and preferences. Whether you're planning an extravagant birthday bash, a romantic engagement party, or a lively corporate retreat, there’s a package tailored just for you. Birthday parties are particularly popular, as they provide a unique way to celebrate milestones with friends and family. Imagine hosting a themed party on a yacht, where you can decorate the space according to your chosen motif and dance the night away with the sound of the waves in the background.
+      <span className={styles.orange}><span className={styles.orange}>Yacht Club Goa</span> </span> offers a wide range of yacht party options to cater to various celebrations and preferences. Whether you're planning an extravagant birthday bash, a romantic engagement party, or a lively corporate retreat, there’s a package tailored just for you. <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">Birthday parties</Link> are particularly popular, as they provide a unique way to celebrate milestones with friends and family. Imagine hosting a themed party on a yacht, where you can decorate the space according to your chosen motif and dance the night away with the sound of the waves in the background.
       </p>
 
       <p>
@@ -2514,7 +2514,7 @@ export const BlogDetail = [
        </p>
 
        <p>
-       With a wide range of luxurious yachts to choose from, <span className={styles.orange}>Yacht Club Goa</span>  offers an unparalleled experience on the serene waters of Goa. Whether you're planning a romantic getaway, a corporate event, or a fun-filled party with friends, their fleet of well-maintained yachts caters to every occasion.
+       With a wide range of luxurious yachts to choose from, <span className={styles.orange}>Yacht Club Goa</span>  offers an unparalleled experience on the serene waters of Goa. Whether you're planning a romantic getaway, a <Link href="/yacht-services-goa/corporate-events-on-yacht-goa">corporate event</Link>, or a fun-filled party with friends, their fleet of well-maintained yachts caters to every occasion.
        </p>
 
        <p>
@@ -2540,7 +2540,7 @@ export const BlogDetail = [
        </p>
       
       <p>
-      Lastly, the flexibility that comes with renting a yacht is a significant advantage. You can tailor your itinerary to suit your preferences, whether it be leisurely cruising, fishing, or simply soaking up the sun. The freedom to explore at your own pace, combined with the luxury of a private yacht, makes for an unforgettable trip. Whether you're a seasoned sailor or a first-timer, choosing a yacht for your Goa trip will undoubtedly enhance your overall experience.
+      Lastly, the flexibility that comes with renting a yacht is a significant advantage. You can tailor your itinerary to suit your preferences, whether it be leisurely cruising, fishing, or simply soaking up the sun. The freedom to explore at your own pace, combined with the luxury of a <Link href="/yacht-sail">private yacht</Link>, makes for an unforgettable trip. Whether you're a seasoned sailor or a first-timer, choosing a yacht for your Goa trip will undoubtedly enhance your overall experience.
 
       </p>
 
@@ -2623,7 +2623,7 @@ export const BlogDetail = [
       </p>
 
       <p>
-      Most yacht rental services, including <span className={styles.orange}><span className={styles.orange}>Yacht Club Goa</span> ,</span> offer hourly, half-day, and full-day rental options. Hourly rentals are ideal for short trips or sunset cruises, while full-day rentals allow you to explore more destinations along the coastline. Additionally, some packages may include all-inclusive options that cover meals, drinks, and water sports activities, providing excellent value for your investment.
+      Most yacht rental services, including <span className={styles.orange}><span className={styles.orange}>Yacht Club Goa</span> ,</span> offer hourly, half-day, and full-day rental options. Hourly rentals are ideal for short trips or <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruises</Link>, while full-day rentals allow you to explore more destinations along the coastline. Additionally, some packages may include all-inclusive options that cover meals, drinks, and water sports activities, providing excellent value for your investment.
 
       </p>
 
@@ -2730,7 +2730,7 @@ export const BlogDetail = [
       </p>
       
       <p>
-      Whether you want a peaceful sunset cruise, a private dinner under the stars, or an adventurous day 
+      Whether you want a peaceful <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link>, a private dinner under the stars, or an adventurous day 
       exploring Goa’s beautiful coastline, <span className={styles.orange}>Yacht Club Goa</span>  has a package that will sweep you off your feet.
        Let's dive into all the incredible ways to celebrate Valentine’s 
        Day in Goa with <span className={styles.orange}><span className={styles.orange}>Yacht Club Goa</span> .</span>
@@ -3040,16 +3040,16 @@ export const BlogDetail = [
     blog_info:
       <>
       <p>
-      Your wedding is one of the most cherished milestones of your life, and a pre-wedding photoshoot is the 
+      Your wedding is one of the most cherished milestones of your life, and a <Link href="/yacht-services-goa/pre-wedding-shoot-on-yacht-goa">pre-wedding photoshoot</Link> is the 
       perfect way to celebrate this journey. At <span className={styles.orange}><span className={styles.orange}>Yacht Club Goa</span> </span>, we make your dream photoshoot a reality with 
       breathtaking views, luxurious settings, and unique experiences. Imagine capturing your love story amidst 
-      the serene waves, against stunning sunsets, or with the elegance of a private yacht in the background.
+      the serene waves, against stunning sunsets, or with the elegance of a <Link href="/yacht-sail">private yacht</Link> in the background.
       </p>
       
       <iframe width="355" height="631" src="https://www.youtube.com/embed/OFg1EoaOp5Y" 
-      title="Capturing timeless moments on the serene waters." frameborder="0" 
+      title="Capturing timeless moments on the serene waters." frameBorder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+      referrerPolicy="strict-origin-when-cross-origin" allowFullScreen
       style={{width: '100%'}}></iframe>
       
       <h3 className='mt-4'>
@@ -3457,7 +3457,7 @@ export const BlogDetail = [
       </h3>
       
       <p>
-      Yacht rental costs often include a professional crew to ensure your safety and comfort. However, for 
+      <Link href="/yacht-sail">Yacht rental</Link> costs often include a professional crew to ensure your safety and comfort. However, for 
       some yachts, additional crew services like private chefs or bartenders may be offered at an extra charge. 
       Fuel charges are also sometimes added depending on the route and duration of your trip.
       </p>
@@ -3679,10 +3679,10 @@ export const BlogDetail = [
       </p>
 
       <p>
-      For couples, a private sunset cruise is an intimate way to reconnect while enjoying the gentle sea 
+      For couples, a private <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> is an intimate way to reconnect while enjoying the gentle sea 
       breeze. Milestone events like birthdays or anniversaries become unforgettable when hosted on a yacht 
       deck adorned with twinkling lights and tasteful decor. Recently, 
-      <span className={styles.orange}>Yacht Club Goa</span> hosted a chic birthday party featuring elegant 
+      <span className={styles.orange}>Yacht Club Goa</span> hosted a chic <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday party</Link> featuring elegant 
       decorations, live DJ performances, and a gourmet cake setup — talk about taking celebrations to the 
       next level!
       </p>
@@ -3835,7 +3835,7 @@ export const BlogDetail = [
     img: '/blogDetail/Best-Way-to-Celebrate-New-Year-in-Goa-A-Luxurious-Yacht-Experience.png',
     alt:"Best Way to Celebrate New Year in Goa: A Luxurious Yacht Experience with Yacht Club Goa",
     name: "Best Way to Celebrate New Year in Goa: A Luxurious Yacht Experience with Yacht Club Goas",
-    param: "Best-Way-to-Celebrate-New-Year-in-Goa-A-Luxurious-Yacht-Experience",
+    param: "best-way-to-celebrate-new-year-in-goa-a-luxurious-yacht-experience",
     meta_title: "Best Way to Celebrate New Year in Goa: A Luxurious Yacht Experience with Yacht Club Goa",
     meta_description: "Goa is undoubtedly one of the most sought-after destinations for New Year celebrations in India. Its golden beaches, vibrant nightlife, and festive energy make it a dream location to welcome the new year.",
     date: '2024-11-10',//YYYY-MM-dd
@@ -3845,7 +3845,7 @@ export const BlogDetail = [
       <p>
       Goa is undoubtedly one of the most sought-after destinations for New Year celebrations in India. Its golden beaches, vibrant nightlife, 
       and festive energy make it a dream location to welcome the new year. While beach parties and club hopping are the usual go-to options, why 
-      not elevate your celebration this year? Yacht rentals in Goa offer a unique, luxurious way to celebrate, and <span className={styles.orange}>Yacht Club Goa</span> has everything you need to make your New Year’s Eve unforgettable.
+      not elevate your celebration this year? <Link href="/yacht-sail">Yacht rentals</Link> in Goa offer a unique, luxurious way to celebrate, and <span className={styles.orange}>Yacht Club Goa</span> has everything you need to make your New Year’s Eve unforgettable.
       </p>
 
       <h3>
@@ -3898,7 +3898,7 @@ export const BlogDetail = [
 
      <ol>
      <li>
-      Easy Booking: Visit <span className={styles.orange}><Link href='https://yachtclubgoa.com/'>yachtclubgoa.com</Link></span> to explore options and book your yacht effortlessly.
+      Easy Booking: Visit <span className={styles.orange}><Link href='/'>yachtclubgoa.com</Link></span> to explore options and book your yacht effortlessly.
       </li>
       <li>
       Dress for the Occasion: Opt for comfortable yet stylish attire suitable for a party on the water.
@@ -3921,7 +3921,7 @@ export const BlogDetail = [
       </p>
 
       <p>
-      So why settle for the usual when you can welcome 2025 in unmatched luxury? Visit <span className={styles.orange}><Link href='https://yachtclubgoa.com/'>yachtclubgoa.com</Link></span> to book your yacht and make this 
+      So why settle for the usual when you can welcome 2025 in unmatched luxury? Visit <span className={styles.orange}><Link href='/'>yachtclubgoa.com</Link></span> to book your yacht and make this 
       New Year truly special.
       </p>
 
@@ -3963,7 +3963,7 @@ export const BlogDetail = [
     img: '/blogDetail/Unique-Experiences-You-Can-Enjoy-on-a-Private-Yacht.png',
     alt:"Unique Experiences You Can Enjoy on a Private Yacht in Goa",
     name: "Unique Experiences You Can Enjoy on a Private Yacht in Goa",
-    param: "Unique-Experiences-You-Can-Enjoy-on-a-Private-Yacht",
+    param: "unique-experiences-you-can-enjoy-on-a-private-yacht",
     meta_title: "Unique Experiences You Can Enjoy on a Private Yacht in Goa",
     meta_description: "Clueless about what to do on a yacht? You’re not alone! A private yacht experience in Goa is a luxurious and exciting way to enjoy the region’s stunning coastline.",
     date: '2024-11-18',//YYYY-MM-dd
@@ -3971,7 +3971,7 @@ export const BlogDetail = [
     blog_info:
       <>
       <p>
-      Clueless about what to do on a yacht? You’re not alone! A private yacht experience in Goa is a luxurious and exciting way to enjoy the 
+      Clueless about what to do on a yacht? You’re not alone! A <Link href="/yacht-sail">private yacht</Link> experience in Goa is a luxurious and exciting way to enjoy the 
       region’s stunning coastline. But the real question is—what can you actually do on a yacht? Don’t worry; I’ve got you covered! Here are 7 
       unique activities that will make your private yacht adventure in Goa unforgettable. Let’s dive in!
       </p>
@@ -4071,7 +4071,7 @@ export const BlogDetail = [
       Exceptional Service: Enjoy professional, attentive service from the crew to make your journey seamless.
       </li>
       <li>
-      Easy Booking: Visit <span className={styles.orange}><Link href='https://yachtclubgoa.com/'>yachtclubgoa.com</Link></span> to explore their offerings and book your unforgettable yacht experience today!
+      Easy Booking: Visit <span className={styles.orange}><Link href='/'>yachtclubgoa.com</Link></span> to explore their offerings and book your unforgettable yacht experience today!
       </li>
     </ul>
 
@@ -4085,7 +4085,7 @@ export const BlogDetail = [
     </p>
 
     <p>
-    Visit <span className={styles.orange}><Link href='https://yachtclubgoa.com/'>yachtclubgoa.com</Link></span> to book your private yacht and 
+    Visit <span className={styles.orange}><Link href='/'>yachtclubgoa.com</Link></span> to book your private yacht and 
     start creating lasting memories. Stop reading and start living your adventure today!
     </p>
 
@@ -4137,7 +4137,7 @@ export const BlogDetail = [
       <p>
       When you think of Goa, your mind probably goes to golden beaches, seafood thalis, and beach shacks playing the 
       perfect sunset tunes. But there's one experience that’s becoming the heart of luxury travel in Goa — and that’s 
-      hopping on a <span className={styles.orange}>private yacht.</span>
+      hopping on a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link>.</span>
       </p>
 
       <p>
@@ -4384,7 +4384,7 @@ export const BlogDetail = [
       <p>
         Whether you’re a first-timer or a frequent visitor, experiencing the Mandovi River is a must-do — not just 
         from the shore, but <span className={styles.orange}>on the water itself.</span> And what better way to do that 
-        than on a <span className={styles.orange}>private yacht ride with Yacht Club Goa?</span>
+        than on a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> ride with Yacht Club Goa?</span>
       </p>
 
       <p>
@@ -4857,7 +4857,7 @@ export const BlogDetail = [
         There’s something about the monsoon in Goa that makes the world slow down , the roads are quieter, the air is cooler, 
         and everything around turns a shade greener. For couples visiting during this magical time, Goa transforms 
         into a storybook setting, perfect for moments that deserve more than just a selfie. And when those moments 
-        happen on a <span className={styles.orange}>private yacht,</span> they become unforgettable.
+        happen on a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link>,</span> they become unforgettable.
        </p>
 
        <p>
@@ -5053,7 +5053,7 @@ export const BlogDetail = [
        <p>
         Goa is a destination that thrives in every season , sunny beach days in winter, vibrant greenery in the monsoon, 
         and balmy evenings in summer. But while most activities in Goa slow down or shut during the rainy months, one 
-        experience sails on: <span className={styles.orange}>private yacht rides on the Mandovi River with Yacht Club Goa.</span>
+        experience sails on: <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> rides on the Mandovi River with Yacht Club Goa.</span>
        </p>
 
        <p>
@@ -5318,7 +5318,7 @@ export const BlogDetail = [
       <>
        <p>
        The monsoon season in Goa is refreshing, romantic, and wildly photogenic — but it also calls for thoughtful 
-       packing, especially if you’re planning a <span className={styles.orange}>private yacht ride.</span> Unlike summer 
+       packing, especially if you’re planning a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> ride.</span> Unlike summer 
        sails where flip-flops and sunglasses suffice, cruising in the rain means being prepared for both adventure and comfort.
        </p>
        
@@ -5849,7 +5849,7 @@ export const BlogDetail = [
 
        <p>
         There’s nothing more magical than watching the sun dip into the Arabian Sea from a private deck 
-        with your partner. Book a <span className={styles.orange}>private yacht from Yacht Club Goa</span> and enjoy curated couple experiences 
+        with your partner. Book a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> from Yacht Club Goa</span> and enjoy curated couple experiences 
         like candlelight setups, music, and wine under the sky. It’s intimate, luxurious, and 
         Instagram-worthy.
        </p>
@@ -6267,7 +6267,7 @@ export const BlogDetail = [
        </p>
 
        <p>
-        If you’ve ever wondered whether a <span className={styles.orange}>private yacht charter in Goa</span> is worth it this is your 
+        If you’ve ever wondered whether a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> charter in Goa</span> is worth it this is your 
         sign to say YES.
        </p>
 
@@ -6808,7 +6808,7 @@ export const BlogDetail = [
       </h3>
 
       <p>
-        Yes, many packages offer short sunset cruises.
+        Yes, many packages offer short <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruises</Link>.
       </p>
 
       <h3 className={styles.faq_h3}>
@@ -6899,7 +6899,7 @@ export const BlogDetail = [
         <p>
           The trick is choosing locations that complement each other and, more importantly, suit your personalities.
           Here are five stunning places and experiences to consider when planning your
-          <span className={styles.orange}> Goa pre-wedding photoshoot</span>.
+          <span className={styles.orange}> Goa <Link href="/yacht-services-goa/pre-wedding-shoot-on-yacht-goa">pre-wedding photoshoot</Link></span>.
         </p>
 
         <h3>
@@ -7280,7 +7280,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          A yacht or cruise in Goa can be a great way to see the coastline, enjoy the sea breeze and spend time with the people you're travelling with. Depending on what you choose, your boat experience could be a romantic evening, family outing, birthday celebration or even a corporate event.
+          A yacht or cruise in Goa can be a great way to see the coastline, enjoy the sea breeze and spend time with the people you're travelling with. Depending on what you choose, your boat experience could be a romantic evening, family outing, <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday celebration</Link> or even a corporate event.
         </p>
 
         <p>
@@ -7418,7 +7418,7 @@ export const BlogDetail = [
         <h3> If you’re celebrating a Bachelors or Bachelorette party... </h3>
 
         <p>
-          A bachelor or bachelorette party in Goa doesn't have to mean spending the entire night at a club. A private yacht can turn the celebration into something a little more memorable and definitely Instagram-worthy!
+          A bachelor or <Link href="/yacht-services-goa/bachelorette-party-on-yacht-goa">bachelorette party</Link> in Goa doesn't have to mean spending the entire night at a club. A private yacht can turn the celebration into something a little more memorable and definitely Instagram-worthy!
         </p>
 
         <p>
@@ -7440,7 +7440,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          A sunset cruise can be lively and social, while a sunset yacht experience can be much more private. For couples, sunset is particularly popular, while families and friends can enjoy the opportunity for photographs.
+          A <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> can be lively and social, while a sunset yacht experience can be much more private. For couples, sunset is particularly popular, while families and friends can enjoy the opportunity for photographs.
         </p>
 
         <p>
@@ -7698,7 +7698,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Yacht Club Goa offers yacht experiences designed around different occasions, including romantic experiences, proposals, birthdays, pre-wedding shoots and corporate events. Sometimes, the best celebration is the one where the guest list is small, the scenery is enormous and the Arabian Sea gets a front-row seat.
+          Yacht Club Goa offers yacht experiences designed around different occasions, including romantic experiences, proposals, birthdays, <Link href="/yacht-services-goa/pre-wedding-shoot-on-yacht-goa">pre-wedding shoots</Link> and corporate events. Sometimes, the best celebration is the one where the guest list is small, the scenery is enormous and the Arabian Sea gets a front-row seat.
         </p>
 
         <h3> Sunset Yacht Ride in Goa: When the Sky Steals the Show </h3>
@@ -7728,7 +7728,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Yacht Club Goa offers options ranging from smaller boats for intimate experiences to larger yachts and a party catamaran for bigger groups. Whether you're planning a couple's evening or a celebration with friends, sunset can make the experience even more memorable.
+          Yacht Club Goa offers options ranging from smaller boats for intimate experiences to larger yachts and a party <Link href="/yacht-sail/party-catamaran-100-pax">catamaran</Link> for bigger groups. Whether you're planning a couple's evening or a celebration with friends, sunset can make the experience even more memorable.
         </p>
 
         <h3> 2. Sunset and Romance Are Basically a Package Deal </h3>
@@ -7748,7 +7748,7 @@ export const BlogDetail = [
         <h3> 3. Ideal for Parties and Celebrations </h3>
 
         <p>
-          Sunset also wins when the mood is more “let's celebrate” than “let's meditate.” Birthdays, bachelorette parties, anniversaries, reunions and corporate gatherings can all work particularly well during the evening.
+          Sunset also wins when the mood is more “let's celebrate” than “let's meditate.” Birthdays, <Link href="/yacht-services-goa/bachelorette-party-on-yacht-goa">bachelorette parties</Link>, anniversaries, reunions and corporate gatherings can all work particularly well during the evening.
         </p>
 
         <p>
@@ -7943,7 +7943,7 @@ export const BlogDetail = [
         <h3> Goa Yacht Rental: Documents, Booking Process & What to Expect </h3>
 
         <p>
-          Renting a yacht in Goa is one of the best ways to experience the coastline, rivers and beautiful surroundings from a completely different perspective. Whether you are planning a romantic sunset cruise, birthday celebration, proposal, pre-wedding shoot, family outing or corporate event, a private yacht can turn an ordinary Goa trip into something memorable.
+          Renting a yacht in Goa is one of the best ways to experience the coastline, rivers and beautiful surroundings from a completely different perspective. Whether you are planning a romantic sunset cruise, birthday celebration, proposal, <Link href="/yacht-services-goa/pre-wedding-shoot-on-yacht-goa">pre-wedding shoot</Link>, family outing or corporate event, a private yacht can turn an ordinary Goa trip into something memorable.
         </p>
 
         <p>
@@ -7990,7 +7990,7 @@ export const BlogDetail = [
         <h3> 1. Decide What Kind of Experience You Want </h3>
 
         <p>
-          Start with the occasion. Are you looking for a peaceful yacht ride, romantic date, sunset cruise, birthday celebration, proposal, pre-wedding shoot, bachelorette party or corporate event?
+          Start with the occasion. Are you looking for a peaceful yacht ride, romantic date, sunset cruise, birthday celebration, proposal, pre-wedding shoot, <Link href="/yacht-services-goa/bachelorette-party-on-yacht-goa">bachelorette party</Link> or corporate event?
         </p>
 
         <p>
@@ -8287,7 +8287,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Whether you are planning a quiet morning ride, a romantic sunset, a birthday celebration, a proposal, a pre-wedding shoot or a large group event, Yacht Club Goa offers different yacht experiences to match different occasions and group sizes.
+          Whether you are planning a quiet morning ride, a romantic sunset, a <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday celebration</Link>, a proposal, a pre-wedding shoot or a large group event, Yacht Club Goa offers different yacht experiences to match different occasions and group sizes.
         </p>
 
         <p>
@@ -8340,7 +8340,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Whether you are planning a romantic yacht experience, sunset cruise, birthday celebration, private party with friends or simply want to see Goa from the water, knowing what not to do can make the experience significantly better.
+          Whether you are planning a romantic yacht experience, sunset cruise, <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday celebration</Link>, private party with friends or simply want to see Goa from the water, knowing what not to do can make the experience significantly better.
         </p>
 
         <p>
@@ -8594,7 +8594,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          If you are on a sunset cruise, actually watch the sunset. The best photograph may end up being the one you did not take.
+          If you are on a <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link>, actually watch the sunset. The best photograph may end up being the one you did not take.
         </p>
 
         <h3> Don't Try to Plan Every Minute </h3>
@@ -8622,7 +8622,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          A bachelorette party could also have specific entertainment or setup requirements. The more information you provide before the charter, the easier it is to create an experience that fits your expectations.
+          A <Link href="/yacht-services-goa/bachelorette-party-on-yacht-goa">bachelorette party</Link> could also have specific entertainment or setup requirements. The more information you provide before the charter, the easier it is to create an experience that fits your expectations.
         </p>
 
         <p>
@@ -8751,7 +8751,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          That is what makes a <span className={styles.orange}>sunset yacht ride in Goa</span> so memorable. With Yacht Club Goa, a sunset cruise becomes more than a way to watch the sun disappear. It becomes an experience built around the journey, the views, the company and those few magical minutes when Goa seems to slow down.
+          That is what makes a <span className={styles.orange}>sunset yacht ride in Goa</span> so memorable. With Yacht Club Goa, a <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> becomes more than a way to watch the sun disappear. It becomes an experience built around the journey, the views, the company and those few magical minutes when Goa seems to slow down.
         </p>
 
         <h3> Why a Goa Sunset Looks Different From the Water </h3>
@@ -8899,7 +8899,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          That is what makes a <span className={styles.orange}>private yacht in Goa</span> so appealing. It gives the evening a beginning, middle and end rather than simply giving you a place to watch the sun.
+          That is what makes a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> in Goa</span> so appealing. It gives the evening a beginning, middle and end rather than simply giving you a place to watch the sun.
         </p>
 
         <h3> Turn the Sunset Into a Romantic Evening </h3>
@@ -8939,7 +8939,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Yacht Club Goa offers different vessels for different group sizes and occasions, from smaller yachts suited to intimate experiences to larger vessels designed for celebrations and groups. Its fleet includes luxury yachts and a party catamaran.
+          Yacht Club Goa offers different vessels for different group sizes and occasions, from smaller yachts suited to intimate experiences to larger vessels designed for celebrations and groups. Its fleet includes luxury yachts and a party <Link href="/yacht-sail/party-catamaran-100-pax">catamaran</Link>.
         </p>
 
         <p>
@@ -9161,7 +9161,7 @@ export const BlogDetail = [
         <h3> Staying Within the Yacht's Capacity Is a Safety Issue </h3>
 
         <p>
-          Every yacht has a designated passenger capacity. A birthday party, corporate outing or bachelorette celebration should never become a game of squeezing as many people as possible onto the deck.
+          Every yacht has a designated passenger capacity. A <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday party</Link>, corporate outing or bachelorette celebration should never become a game of squeezing as many people as possible onto the deck.
         </p>
 
         <p>
@@ -9181,7 +9181,7 @@ export const BlogDetail = [
         <h3> Alcohol and Water Safety: Enjoy Responsibly </h3>
 
         <p>
-          A private yacht can be the perfect setting for a celebration, with music, food, drinks and open water creating a holiday atmosphere. But alcohol and boating require responsible behaviour.
+          A <Link href="/yacht-sail">private yacht</Link> can be the perfect setting for a celebration, with music, food, drinks and open water creating a holiday atmosphere. But alcohol and boating require responsible behaviour.
         </p>
 
         <p>
@@ -9438,7 +9438,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Birthday celebrations can stay intimate. A proposal can feel personal. A family outing can happen without the noise of a crowded entertainment venue. A corporate team can spend time together away from the usual office environment. You're not simply booking a seat, you're booking your own floating space.
+          <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">Birthday celebrations</Link> can stay intimate. A proposal can feel personal. A family outing can happen without the noise of a crowded entertainment venue. A corporate team can spend time together away from the usual office environment. You're not simply booking a seat, you're booking your own floating space.
         </p>
 
         <h3> The Freedom to Create Your Own Experience </h3>
@@ -9448,7 +9448,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          At Yacht Club Goa, yacht experiences are offered for occasions including birthdays, bachelorette parties, proposals, pre-wedding shoots, romantic sunset experiences and corporate events.
+          At Yacht Club Goa, yacht experiences are offered for occasions including birthdays, bachelorette parties, proposals, <Link href="/yacht-services-goa/pre-wedding-shoot-on-yacht-goa">pre-wedding shoots</Link>, romantic sunset experiences and corporate events.
         </p>
 
         <p>
@@ -9486,7 +9486,7 @@ export const BlogDetail = [
         <h3> Which Is Better for Celebrations? </h3>
 
         <p>
-          It depends on the celebration. A casino may work for a group looking for an energetic night of entertainment and gaming. A private yacht can be particularly suited to celebrations where the people and the occasion are the focus. Think birthdays, anniversaries, proposals, pre-wedding celebrations and bachelorette parties.
+          It depends on the celebration. A casino may work for a group looking for an energetic night of entertainment and gaming. A private yacht can be particularly suited to celebrations where the people and the occasion are the focus. Think birthdays, anniversaries, proposals, pre-wedding celebrations and <Link href="/yacht-services-goa/bachelorette-party-on-yacht-goa">bachelorette parties</Link>.
         </p>
 
         <p>
@@ -9604,7 +9604,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          That same freedom is what makes a private yacht experience particularly interesting for solo travellers. Instead of joining a fixed sightseeing tour or following someone else's schedule, you can create an experience around what you actually want from Goa. Maybe that's a quiet morning on the water. Maybe it's a sunset cruise with your favourite playlist. Maybe you simply want a few hours away from the noise of the mainland.
+          That same freedom is what makes a private yacht experience particularly interesting for solo travellers. Instead of joining a fixed sightseeing tour or following someone else's schedule, you can create an experience around what you actually want from Goa. Maybe that's a quiet morning on the water. Maybe it's a <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> with your favourite playlist. Maybe you simply want a few hours away from the noise of the mainland.
         </p>
 
         <p>
@@ -9654,7 +9654,7 @@ export const BlogDetail = [
         <h3> You Don't Need a Special Occasion </h3>
 
         <p>
-          One misconception about <span className={styles.orange}>private yacht rentals in Goa</span> is that you need a birthday, proposal, anniversary or bachelorette party to justify one. You don't. Your reason can simply be: "I'm in Goa, and I want to spend a few hours on a yacht."
+          One misconception about <span className={styles.orange}>private yacht rentals in Goa</span> is that you need a birthday, proposal, anniversary or <Link href="/yacht-services-goa/bachelorette-party-on-yacht-goa">bachelorette party</Link> to justify one. You don't. Your reason can simply be: "I'm in Goa, and I want to spend a few hours on a yacht."
         </p>
 
         <p>
@@ -9720,7 +9720,7 @@ export const BlogDetail = [
         <h3> Why Choose Yacht Club Goa for a Solo Yacht Experience? </h3>
 
         <p>
-          If you're looking for a private yacht in Goa, the operator you choose can make as much difference as the yacht itself. Yacht Club Goa has been operating since 2002 and offers a fleet covering different capacities and styles, from smaller boats to larger luxury yachts. The company also caters to experiences including sunset cruises, celebrations, proposals, pre-wedding shoots and corporate events.
+          If you're looking for a private yacht in Goa, the operator you choose can make as much difference as the yacht itself. Yacht Club Goa has been operating since 2002 and offers a fleet covering different capacities and styles, from smaller boats to larger luxury yachts. The company also caters to experiences including sunset cruises, celebrations, proposals, <Link href="/yacht-services-goa/pre-wedding-shoot-on-yacht-goa">pre-wedding shoots</Link> and corporate events.
         </p>
 
         <p>
@@ -9820,7 +9820,7 @@ export const BlogDetail = [
         <h3> If Goa's Yachts Could Talk: Confessions from 10 Years on the Water </h3>
 
         <p>
-          If Goa's yachts could talk, they would have a lot to say. They would tell you about sunsets that seemed to last forever, proposals that began with nervous silence, birthday celebrations that got louder as the evening went on, and groups of friends who stepped onboard expecting a boat ride and left with a story they would tell for years.
+          If Goa's yachts could talk, they would have a lot to say. They would tell you about sunsets that seemed to last forever, proposals that began with nervous silence, <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday celebrations</Link> that got louder as the evening went on, and groups of friends who stepped onboard expecting a boat ride and left with a story they would tell for years.
         </p>
 
         <p>
@@ -9866,7 +9866,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          A yacht has witnessed plenty of romantic moments. There is something about being surrounded by water, away from the distractions of the mainland, that naturally lends itself to special occasions. Proposals, anniversaries, romantic sunset cruises and intimate celebrations all have a way of feeling more personal when they happen on the water. And while the yacht may not know whether the answer will be "yes," it has probably seen its fair share of happy endings.
+          A yacht has witnessed plenty of romantic moments. There is something about being surrounded by water, away from the distractions of the mainland, that naturally lends itself to special occasions. Proposals, anniversaries, romantic <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruises</Link> and intimate celebrations all have a way of feeling more personal when they happen on the water. And while the yacht may not know whether the answer will be "yes," it has probably seen its fair share of happy endings.
         </p>
 
         <p>
@@ -9898,7 +9898,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Yacht Club Goa offers different vessels for different group sizes, from smaller boats to larger luxury yachts and a party catamaran designed for bigger celebrations. Because sometimes, the best birthday venue isn't a venue at all. It's the water.
+          Yacht Club Goa offers different vessels for different group sizes, from smaller boats to larger luxury yachts and a party <Link href="/yacht-sail/party-catamaran-100-pax">catamaran</Link> designed for bigger celebrations. Because sometimes, the best birthday venue isn't a venue at all. It's the water.
         </p>
 
         <h3> I've Carried First Dates, Friendships and Family Memories </h3>
@@ -10052,7 +10052,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          There is something special about being away from the crowds and having the sunset spread out in front of you. For couples, a <span className={styles.orange}>sunset cruise in Goa</span> can be a lovely date. For friends, it can be the perfect end to a day out. And, of course, keep your camera ready. You will probably want a few photos.
+          There is something special about being away from the crowds and having the sunset spread out in front of you. For couples, a <span className={styles.orange}><Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> in Goa</span> can be a lovely date. For friends, it can be the perfect end to a day out. And, of course, keep your camera ready. You will probably want a few photos.
         </p>
 
         <h3> 3. Have a Yacht Picnic or Meal </h3>
@@ -10090,7 +10090,7 @@ export const BlogDetail = [
         </ul>
 
         <p>
-          At Yacht Club Goa, private yacht experiences can be planned around different occasions, allowing you to create a day that feels personal to your group. You can keep the celebration intimate or bring your friends and family along. The idea is simple: celebrate somewhere a little different.
+          At Yacht Club Goa, <Link href="/yacht-sail">private yacht</Link> experiences can be planned around different occasions, allowing you to create a day that feels personal to your group. You can keep the celebration intimate or bring your friends and family along. The idea is simple: celebrate somewhere a little different.
         </p>
 
         <h3> 6. Enjoy a Romantic Yacht Date </h3>
@@ -10200,7 +10200,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          The yacht you choose should match the kind of experience you have in mind. Think about the number of people, how much privacy you want and whether you'd like space for food, decorations or a small celebration afterwards. For a more intimate proposal, a <span className={styles.orange}>private yacht in Goa</span> can create a relaxed setting where you don't have to worry about other people around you.
+          The yacht you choose should match the kind of experience you have in mind. Think about the number of people, how much privacy you want and whether you'd like space for food, decorations or a small celebration afterwards. For a more intimate proposal, a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> in Goa</span> can create a relaxed setting where you don't have to worry about other people around you.
         </p>
 
         <h3> 2. Pick the Perfect Time of Day </h3>
@@ -10210,7 +10210,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Prefer something quieter? An earlier ride can give you bright skies and plenty of natural light. Think about what suits your partner. If they love sunsets and romantic evenings, a <span className={styles.orange}>sunset cruise in Goa</span> could be perfect. If they prefer calm mornings and fewer distractions, an earlier experience may be a better fit.
+          Prefer something quieter? An earlier ride can give you bright skies and plenty of natural light. Think about what suits your partner. If they love sunsets and romantic evenings, a <span className={styles.orange}><Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> in Goa</span> could be perfect. If they prefer calm mornings and fewer distractions, an earlier experience may be a better fit.
         </p>
 
         <p>
@@ -10378,7 +10378,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Bring your favourite drinks, put on some music and simply enjoy being together. You don't need to fill every minute with activities. Sit back, talk, take a few pictures and watch the sun disappear over the horizon. If your partner loves sunsets, a <span className={styles.orange}>sunset cruise in Goa</span> is a date idea that's difficult to beat.
+          Bring your favourite drinks, put on some music and simply enjoy being together. You don't need to fill every minute with activities. Sit back, talk, take a few pictures and watch the sun disappear over the horizon. If your partner loves sunsets, a <span className={styles.orange}><Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> in Goa</span> is a date idea that's difficult to beat.
         </p>
 
         <h3> 2. Plan a Private Dinner on the Water </h3>
@@ -10503,7 +10503,7 @@ export const BlogDetail = [
         <h3 className={styles.faq_h3}> Can I book a private yacht for a date in Goa? </h3>
 
         <p>
-          Yes. Private yacht experiences allow couples to enjoy more personal time on the water. Yacht Club Goa offers yacht experiences that can be planned around different occasions and preferences.
+          Yes. <Link href="/yacht-sail">Private yacht</Link> experiences allow couples to enjoy more personal time on the water. Yacht Club Goa offers yacht experiences that can be planned around different occasions and preferences.
         </p>
 
         <h3> Ready to Plan Your Yacht Date? </h3>
@@ -10559,7 +10559,7 @@ export const BlogDetail = [
         <h3> 1. Is a Yacht Ride Suitable for Families? </h3>
 
         <p>
-          Yes, a yacht ride can be a wonderful family activity, provided you choose an experience that suits everyone's needs. Unlike a busy sightseeing spot, a private yacht experience gives your family an opportunity to spend time together in a different setting. You can enjoy the views, take photographs, have conversations and simply relax away from the usual crowds.
+          Yes, a yacht ride can be a wonderful family activity, provided you choose an experience that suits everyone's needs. Unlike a busy sightseeing spot, a <Link href="/yacht-sail">private yacht</Link> experience gives your family an opportunity to spend time together in a different setting. You can enjoy the views, take photographs, have conversations and simply relax away from the usual crowds.
         </p>
 
         <p>
@@ -10605,7 +10605,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          A <span className={styles.orange}>sunset cruise in Goa</span> can be particularly memorable. Watching the sky change colours while spending time together gives your family a chance to enjoy the coastline in a relaxed setting.
+          A <span className={styles.orange}><Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> in Goa</span> can be particularly memorable. Watching the sky change colours while spending time together gives your family a chance to enjoy the coastline in a relaxed setting.
         </p>
 
         <p>
@@ -10775,7 +10775,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Whether you're planning a college reunion, a birthday celebration or simply a much-needed break, a <span className={styles.orange}>yacht ride in Goa</span> is worth adding to your itinerary. Here's why.
+          Whether you're planning a college reunion, a <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday celebration</Link> or simply a much-needed break, a <span className={styles.orange}>yacht ride in Goa</span> is worth adding to your itinerary. Here's why.
         </p>
 
         <h3> See Goa From a Different Perspective </h3>
@@ -10835,7 +10835,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          A <span className={styles.orange}>sunset cruise in Goa</span> can be particularly appealing if your group prefers a laid-back outing rather than another busy evening. Check the available departure times when booking, especially if you're visiting Goa during the Christmas and New Year holiday season.
+          A <span className={styles.orange}><Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> in Goa</span> can be particularly appealing if your group prefers a laid-back outing rather than another busy evening. Check the available departure times when booking, especially if you're visiting Goa during the Christmas and New Year holiday season.
         </p>
 
         <h3> Take a Break From Beach Hopping </h3>
@@ -10909,7 +10909,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          Ready to plan a yacht outing with your friends? Contact Yacht Club Goa to explore the available <span className={styles.orange}>yacht rental in Goa</span> options, check availability and discuss an experience that suits your group.
+          Ready to plan a yacht outing with your friends? Contact Yacht Club Goa to explore the available <span className={styles.orange}><Link href="/yacht-sail">yacht rental</Link> in Goa</span> options, check availability and discuss an experience that suits your group.
         </p>
 
         <p>
@@ -10959,7 +10959,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          You don't need a complicated plan. A quiet conversation, a few photographs and a beautiful sunset can easily become one of the best memories of your trip. And if you want to make it a little more special, watch it from the water on a <span className={styles.orange}>sunset cruise in Goa</span>.
+          You don't need a complicated plan. A quiet conversation, a few photographs and a beautiful sunset can easily become one of the best memories of your trip. And if you want to make it a little more special, watch it from the water on a <span className={styles.orange}><Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> in Goa</span>.
         </p>
 
         <h3> 2. Take a Romantic Yacht Ride </h3>
@@ -11009,7 +11009,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          If you're celebrating an anniversary or another milestone, make the evening feel personal. Order a dish you both love, share a dessert and put the phones away for a while. And if you're looking for something beyond a traditional restaurant, you can take your dinner experience onto the water with a <span className={styles.orange}>private yacht in Goa</span>.
+          If you're celebrating an anniversary or another milestone, make the evening feel personal. Order a dish you both love, share a dessert and put the phones away for a while. And if you're looking for something beyond a traditional restaurant, you can take your dinner experience onto the water with a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> in Goa</span>.
         </p>
 
         <h3> 7. Try Something New Together </h3>
@@ -11235,7 +11235,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          For something more memorable, plan a <span className={styles.orange}>private yacht in Goa</span> around sunset. Add your favourite music, arrange a meal or surprise your partner with a small gift. It doesn't have to be extravagant. A thoughtful plan and some uninterrupted time together can make the day feel special.
+          For something more memorable, plan a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> in Goa</span> around sunset. Add your favourite music, arrange a meal or surprise your partner with a small gift. It doesn't have to be extravagant. A thoughtful plan and some uninterrupted time together can make the day feel special.
         </p>
 
         <h3> 9. Discover Goa Through Its Food </h3>
@@ -11255,7 +11255,7 @@ export const BlogDetail = [
         </p>
 
         <p>
-          A <span className={styles.orange}>sunset cruise in Goa</span> can be especially lovely after a busy Christmas Day. Instead of rushing from one attraction to another, you get a few peaceful hours to enjoy the view and the company you're with.
+          A <span className={styles.orange}><Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> in Goa</span> can be especially lovely after a busy Christmas Day. Instead of rushing from one attraction to another, you get a few peaceful hours to enjoy the view and the company you're with.
         </p>
 
         <h3> Make Your Christmas Holiday Special With Yacht Club Goa </h3>
@@ -11311,7 +11311,7 @@ export const BlogDetail = [
         </p>
  
         <p>
-          One type of vessel you may come across while exploring yacht experiences is a catamaran. Known for its distinctive design, it offers a different experience from many traditional single-hull boats.
+          One type of vessel you may come across while exploring yacht experiences is a <Link href="/yacht-sail/party-catamaran-100-pax">catamaran</Link>. Known for its distinctive design, it offers a different experience from many traditional single-hull boats.
         </p>
  
         <p>
@@ -11368,7 +11368,7 @@ export const BlogDetail = [
         </p>
  
         <p>
-          Traditional yachts vary considerably. A larger monohull may have spacious interiors and outdoor seating, while a smaller one may offer a more compact layout. If you're planning a group outing, birthday celebration or family trip, check the seating arrangement, shaded areas, washroom facilities and available space before booking.
+          Traditional yachts vary considerably. A larger monohull may have spacious interiors and outdoor seating, while a smaller one may offer a more compact layout. If you're planning a group outing, <Link href="/yacht-services-goa/birthday-celebration-on-yacht-goa">birthday celebration</Link> or family trip, check the seating arrangement, shaded areas, washroom facilities and available space before booking.
         </p>
  
         <h3> 3. Sailing and Performance </h3>
@@ -11448,7 +11448,7 @@ export const BlogDetail = [
         </p>
  
         <p>
-          Ready to plan your next outing on the water? Contact Yacht Club Goa to explore available <span className={styles.orange}>yacht rental in Goa</span> options and find one that fits your plans.
+          Ready to plan your next outing on the water? Contact Yacht Club Goa to explore available <span className={styles.orange}><Link href="/yacht-sail">yacht rental</Link> in Goa</span> options and find one that fits your plans.
         </p>
       </>,
     tag1: [
@@ -11530,7 +11530,7 @@ export const BlogDetail = [
         <h3> 5. Take Your Goa Holiday Out on the Water </h3>
  
         <p>
-          One way to make your New Year trip different is to experience Goa from the water rather than spending the entire holiday exploring on land. A <span className={styles.orange}>yacht ride in Goa</span> offers an opportunity to enjoy the coastline from a different perspective. Depending on the vessel and package, you may be able to choose a daytime outing or a <span className={styles.orange}>sunset cruise in Goa</span>.
+          One way to make your New Year trip different is to experience Goa from the water rather than spending the entire holiday exploring on land. A <span className={styles.orange}>yacht ride in Goa</span> offers an opportunity to enjoy the coastline from a different perspective. Depending on the vessel and package, you may be able to choose a daytime outing or a <span className={styles.orange}><Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link> in Goa</span>.
         </p>
  
         <p>It can be a good fit for several occasions:</p>
@@ -11581,7 +11581,7 @@ export const BlogDetail = [
         </p>
  
         <p>
-          Whether you're organising a couple's outing, a family experience or a day with friends, checking the details in advance can help you choose appropriately. A <span className={styles.orange}>private yacht in Goa</span> can be one distinctive part of your holiday without requiring you to reorganise your entire itinerary around it.
+          Whether you're organising a couple's outing, a family experience or a day with friends, checking the details in advance can help you choose appropriately. A <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> in Goa</span> can be one distinctive part of your holiday without requiring you to reorganise your entire itinerary around it.
         </p>
  
         <h3> Make This New Year in Goa Different </h3>
@@ -11661,7 +11661,7 @@ export const BlogDetail = [
         <h3> Take Your Diwali Holiday Out on the Water </h3>
  
         <p>
-          A holiday becomes memorable when you do something you wouldn't usually fit into your everyday routine. And if you're looking to add a unique experience to your Diwali trip to Goa, consider spending some time on a <span className={styles.orange}>private yacht in Goa</span>.
+          A holiday becomes memorable when you do something you wouldn't usually fit into your everyday routine. And if you're looking to add a unique experience to your Diwali trip to Goa, consider spending some time on a <span className={styles.orange}><Link href="/yacht-sail">private yacht</Link> in Goa</span>.
         </p>
  
         <p>

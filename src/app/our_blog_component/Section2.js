@@ -17,7 +17,7 @@ import { format } from 'date-fns'
 
 function Section2() {
     //sorting list-suhana
-    const sortedBlogList = BlogList.sort((a, b) => new Date(b.date) - new Date(a.date));
+    const sortedBlogList = BlogList.filter(Boolean).sort((a, b) => new Date(b.date) - new Date(a.date));
   return (
     <>
       <section className={styles.section2}>

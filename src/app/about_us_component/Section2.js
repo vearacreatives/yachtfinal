@@ -95,11 +95,11 @@ function Section2() {
                 </Col>
             </Row>
 
-            <Image src={bg_img1} alt='Goa Birthday Party Venues' className={styles.bg_img1}/>
+            <Image src={bg_img1} alt="" className={styles.bg_img1}/>
         </Container>
-        <Image src={bg_img2} alt='Luxury Birthday Celebrations in Goa' className={styles.bg_img2}/>
+        <Image src={bg_img2} alt="" className={styles.bg_img2}/>
 
-        <Image src={bg_img3} alt='Themed Birthday Parties in Goa' className={styles.bg_img3}/>
+        <Image src={bg_img3} alt="" className={styles.bg_img3}/>
       </section>
     </>
   )

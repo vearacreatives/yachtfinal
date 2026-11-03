@@ -1,82 +1,32 @@
-
-
-import Section2 from '@/app/yacht_component/yacht_detail/Section2'
-import { yacht_detail_data } from '@/app/yacht_component/yacht_detail/yacht_detail_data'
-import { redirect } from 'next/navigation'
-
-import React from 'react'
-
-//Metadata
-export const generateMetadata = ({params}) => 
-{
-  //Yatch Detail
-  const yacht_detail = yacht_detail_data.filter((val)=> val.param === params.yachtid)
-  if(yacht_detail.length !== 0)
-  {
-    
-  const yacht_lenght = yacht_detail[0].yacht_measure;
-  const yacht_cabin = yacht_detail[0].no_cabin
-  //End of Yacht Detail
-
-  const param_id_val = params.yachtid;
-
-  const param_id_space = param_id_val.replace(/-/g, " ");
-
-  const param_id = capitalizeFirstLetterOfEachWord(param_id_space);
-
-  return {
-     title: `${param_id} - Your Private Luxury Awaits`,
-     description: `Experience the epitome of luxury aboard the ${param_id}.This ${yacht_lenght} masterpiece offers ${yacht_cabin === '' ? '' : `${yacht_cabin} spacious cabins`},a stunning view and top-of-the-line amenities. Perfect for indulging in a private luxury yacht rental in Goa`,
-     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_URL}/yacht-sail/${params.yachtid}`
-    }
-  }
-  }
+import PlanningLinks from '../../common_component/PlanningLinks';
+import Breadcrumbs from '../../common_component/Breadcrumbs';
+import React from 'react';
+import { yacht_detail_data } from '../../yacht_component/yacht_detail/yacht_detail_data';
+import Section2 from '../../yacht_component/yacht_detail/Section2';
+import { notFound, permanentRedirect } from 'next/navigation';
+import { pageMetadata, canonicalUrl, cleanBlogSlug, SITE_URL, jsonLd } from '../../lib/seo.mjs';
+function resolveItem(params) {
+  const item = yacht_detail_data.find(entry => entry.param === params.yachtid);
+  if (!item) notFound();
+  return item;
 }
-
- // Capitalize the first letter of each word
- function capitalizeFirstLetterOfEachWord(str) 
- {
-  // Split the string into an array of words
-  const words = str.split(' ');
-
-  // Capitalize the first letter of each word
-  const capitalizedWords = words.map(word => {
-      // If the word is not empty, capitalize the first letter and append the rest of the word
-      if (word) {
-          return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-      } else {
-          // If the word is empty, return it as is (handles multiple spaces)
-          return word;
-      }
+export function generateStaticParams() {
+  return yacht_detail_data.map(item => ({ yachtid: item.param }));
+}
+export async function generateMetadata({ params }) {
+  const resolved = await params;
+  const item = resolveItem(resolved);
+  return pageMetadata({
+    title: `${item.name} in Goa | Yacht Club Goa`, description: `Explore ${item.name} for private hire in Goa. View onboard features and photos, then enquire with your date and guest count for availability and a quote.`,
+    path: `/yacht-sail/${item.param}`, image: item.img?.[0]?.img_name
   });
-
-  // Join the array of words back into a single string with spaces between words
-  return capitalizedWords.join(' ');
 }
-//End of Capitalize the first letter of each word
-//End of Metadata
-
-function page({params}) {
-  const getData = () => {
-      const yach_detail = yacht_detail_data.filter((val)=> val.param === params.yachtid)
-      if(yach_detail.length !== 0)
-      {
-        return yach_detail
-      }
-      else
-      {
-        redirect('/yacht-sail')
-      }
-    }
-  return (
-    <>
-
-      {/* Section 2 */}
-      <Section2 yach_detail={getData()}/>
-      {/* End of Section 2 */}
-    </>
-  )
+export default async function Page({ params }) {
+  const resolved = await params;
+  const item = resolveItem(resolved);
+  return <>
+    <Breadcrumbs hub="/yacht-sail" hubLabel="Yachts and boats" title={item.name} path={`/yacht-sail/${item.param}`} />
+    <Section2 param_val={{ ...resolved, yachtid: item.param }} yach_detail={[item]} />
+    <PlanningLinks kind="yacht" slug={item.param} />
+  </>;
 }
-
-export default page

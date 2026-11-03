@@ -1,5 +1,5 @@
+"use client";
 
-'use client'
 import React, { useState } from 'react'
 import Image from 'next/image'
 
@@ -151,7 +151,8 @@ function Section2({yach_detail}) {
       }
       else
       {
-        const response = await fetch('/api/YachtSendEmail',{
+        try {
+          const response = await fetch('/api/YachtSendEmail',{
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -160,7 +161,15 @@ function Section2({yach_detail}) {
         })
 
         const data = await response.json();
-        setMail_sent_status(data.status);
+        setMail_sent_status(response.ok && data.status === 200 ? 200 : 500);
+          if (response.ok && data.status === 200) {
+            window.gtag?.('event', 'generate_lead', { form_name: 'yacht_enquiry' });
+          }
+        } catch {
+          setMail_sent_status(500);
+        } finally {
+          setLoading(false);
+        }
         
         setLoading(false)
 
@@ -278,6 +287,7 @@ function Section2({yach_detail}) {
                 </p>
                 {/* End of Section 2 */}
 
+                <h2>Onboard features</h2>
                 {/* Section 3 */}
                 <div className={styles.sec3_main_div}>
                   <Row>
@@ -644,7 +654,7 @@ function Section2({yach_detail}) {
                          </button>
                       </div>
                       {/* End of Book Form */}
-                      <Image src={bg_img2} alt='image' className={styles.bg_img2}/>
+                      <Image src={bg_img2} alt="" className={styles.bg_img2}/>
                       </div>
                    
                   
@@ -659,7 +669,7 @@ function Section2({yach_detail}) {
 
         </Container>
 
-        <Image src={bg_img1} alt='image' className={styles.bg_img1}/>
+        <Image src={bg_img1} alt="" className={styles.bg_img1}/>
       </section>
 
       {/* Video Modal */}

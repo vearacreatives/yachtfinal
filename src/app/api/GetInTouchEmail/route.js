@@ -29,6 +29,6 @@ export async function POST(request)
 
         return new Response(JSON.stringify({message: 'Email sent', messageId: emailResult, status: 200}));
     }catch(error){
-        return new Response(JSON.stringify({message: 'Email sending failed', messageId: emailResult, status: 500}));
+        return new Response(JSON.stringify({message: 'Email sending failed', status: 500}), { status: 500, headers: { 'Content-Type': 'application/json' } });
     }
 }

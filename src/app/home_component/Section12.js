@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from 'react'
 import Image from 'next/image'
 
@@ -24,7 +24,7 @@ import Link from 'next/link';
 
 function Section12() {
     //Sorting blog to latsets list
-    const sortedBlogList = BlogList.sort((a, b) => new Date(b.date) - new Date(a.date));
+    const sortedBlogList = BlogList.filter(Boolean).sort((a, b) => new Date(b.date) - new Date(a.date));
   return (
     <>
        <section className="section12">
@@ -134,7 +134,7 @@ function Section12() {
             </div>
         </div>
 
-        <Image src={bg1} alt="Private Yacht Bachelorette Parties" className="sec12_bg_img"/>
+        <Image src={bg1} alt="" className="sec12_bg_img"/>
     </section>
     </>
   )

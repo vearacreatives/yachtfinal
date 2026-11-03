@@ -56,7 +56,7 @@ export const BlogList = [
         date: '2024-05-06',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: 'Private Cruising on a Luxury Yacht in Goa',
-        param: 'private-cruising-on-a-luxury-yacht-in-goa'
+        param: "private-cruising-on-a-luxury-yacht-in-goa"
     },
     {
         id: 2,
@@ -65,7 +65,7 @@ export const BlogList = [
         date: '2024-05-09',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: 'Private Yacht Charter Goa: Unwind in Paradise on a Luxurious Escape',
-        param: 'private-yacht-charter-goa-unwind-in-paradise-on-a-luxurious-escape'
+        param: "private-yacht-charter-goa-unwind-in-paradise-on-a-luxurious-escape"
     },
     {
         id: 3,
@@ -74,7 +74,7 @@ export const BlogList = [
         date: '2024-05-09',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: 'Yacht Bliss & Beyond: Why Goa in April-May is Your Ideal Escape',
-        param: 'yacht-bliss-and-beyond-why-goa-in-april-may-is-your-ideal-escape'
+        param: "yacht-bliss-and-beyond-why-goa-in-april-may-is-your-ideal-escape"
     },
     {
         id: 4,
@@ -83,9 +83,8 @@ export const BlogList = [
         date: '2024-05-10',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: 'Set Sail on Luxury: Your Guide to Yacht Rentals in Goa (Prices Included!)',
-        param: 'yacht-on-rent-in-goa-price'
+        param: "yacht-on-rent-in-goa-price"
     },
-    ,
     {
         id: 5,
         img: img5,
@@ -93,7 +92,7 @@ export const BlogList = [
         date: '2024-06-10',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: 'How to Plan the Perfect Birthday Party on a Yacht in Goa',
-        param: 'how-to-plan-the-perfect-birthday-party-on-a-yacht-in-goa'
+        param: "how-to-plan-the-perfect-birthday-party-on-a-yacht-in-goa"
     },
     {
         id: 6,
@@ -102,7 +101,7 @@ export const BlogList = [
         date: '2024-06-24',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: 'Escape the Ordinary: Why Your Next Goa Trip Needs a Luxury Yacht Adventure',
-        param: 'escape-the-ordinary-why-your-next-goa-trip-needs-a-luxury-yacht-adventure'
+        param: "escape-the-ordinary-why-your-next-goa-trip-needs-a-luxury-yacht-adventure"
     },
     {
         id: 7,
@@ -111,7 +110,7 @@ export const BlogList = [
         date: '2024-06-24',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: 'How to Throw an Epic Yacht Party in Goa',
-        param: 'how-to-throw-an-epic-yacht-party-in-goa'
+        param: "how-to-throw-an-epic-yacht-party-in-goa"
     },
     {
         id: 8,
@@ -120,7 +119,7 @@ export const BlogList = [
         date: '2024-07-12',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: 'Unwind and Sail Away: Experience Luxury with Yacht Hire in Goa',
-        param: 'unwind-and-sail-away-experience-luxury-with-yacht-hire-in-goa'
+        param: "unwind-and-sail-away-experience-luxury-with-yacht-hire-in-goa"
     },
     {
         id: 9,
@@ -129,7 +128,7 @@ export const BlogList = [
         date: '2024-07-05',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Romantic Getaways: Exploring Goa's Yacht Experiences for Couples",
-        param: "romantic-getaways-exploring-goa's-yacht-experiences-for-couples"
+        param: "romantic-getaways-exploring-goas-yacht-experiences-for-couples"
     },
     {
         id: 10,
@@ -210,7 +209,7 @@ export const BlogList = [
         date: '2024-11-10',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Best Way to Celebrate New Year in Goa: A Luxurious Yacht Experience with Yacht Club Goa",
-        param: "Best-Way-to-Celebrate-New-Year-in-Goa-A-Luxurious-Yacht-Experience"
+        param: "best-way-to-celebrate-new-year-in-goa-a-luxurious-yacht-experience"
     },
     {
         id: 19,
@@ -219,7 +218,7 @@ export const BlogList = [
         date: '2024-11-18',//YYYY-MM-dd
         admin: 'Yacht Club',
         title: "Unique Experiences You Can Enjoy on a Private Yacht in Goa",
-        param: "Unique-Experiences-You-Can-Enjoy-on-a-Private-Yacht"
+        param: "unique-experiences-you-can-enjoy-on-a-private-yacht"
     },
     {
         id: 20,

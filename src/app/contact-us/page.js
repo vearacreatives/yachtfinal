@@ -1,17 +1,13 @@
+import socialImage from '../assets/home/section1_banner.jpg';
+import { pageMetadata } from '../lib/seo.mjs';
 import React from 'react'
 import Section2 from '../contact_us_component/Section2'
 import Section3 from '../contact_us_component/Section3'
 
 
 //Metadata
-export const metadata = {
-    title: 'Charter Your Dream Yacht in Goa',
-    description: 'Ready to embark on a private adventure unlike any other? Contact Yacht Club Goa today! Our dedicated team is here to answer your questions and help you rent the perfect luxury yacht for your dream getaway in Goa.',
-    alternates:{
-        canonical: `${process.env.NEXT_PUBLIC_URL}/contact-us`
-    }
-}
-//End of Metadata
+export const metadata = pageMetadata({image: socialImage, "title": "Contact Yacht Club Goa | Yacht Booking Enquiries", "description": "Contact Yacht Club Goa for yacht availability and a personalised quote. Share your date, guest count and occasion to plan your private yacht experience.", "path": "/contact-us"});
+
 function page() {
   return (
     <>

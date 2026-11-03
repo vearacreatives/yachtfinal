@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/yacht_services_goa/yacht_service_details.module.css'
 
 import img1 from '../assets/yacht_services_goa/yacht_services_detail_goa/birthday/birthday.jpeg'
@@ -12,20 +13,20 @@ export const ServiceDetail = [
     {
         id: 1,
         img: img1,
-        alt: "Birthday Celebration - Yatch Club Goa",
+        alt: "Birthday Celebration - Yacht Club Goa",
         name: 'Unforgettable Birthday Parties Await on the Open Seas',
         param: 'birthday-celebration-on-yacht-goa',
-        meta_title: 'Birthday Celebration - Yatch Club Goa',
+        meta_title: 'Birthday Celebration - Yacht Club Goa',
         meta_description:'Planning a birthday bash in Goa?  Skip the ordinary and set sail for an extraordinary celebration aboard a luxurious yacht! Imagine the gentle sway of the boat, the cool Goan breeze carrying laughter, and the endless expanse of the ocean as your stunning backdrop.',
         service_info: <>
          <p>
         Planning a birthday bash in Goa?  Skip the ordinary and set sail for an extraordinary celebration aboard a luxurious yacht! Imagine the gentle sway of the boat, the cool Goan breeze carrying laughter, and the endless expanse of the ocean as your stunning backdrop. It's more than just a party; it's an experience you and your loved ones will never forget.
         </p>
-        <h3>
+        <h2>
         Why Choose a Yacht Birthday Party in Goa?
-        </h3>
+        </h2>
         <p>
-        Luxury and Exclusivity: Your private yacht is your own personal oasis. Relax on spacious decks, soak up the sun, and enjoy the unparalleled freedom of the open water.
+        Luxury and Exclusivity: Your <Link href="/yacht-sail">private yacht</Link> is your own personal oasis. Relax on spacious decks, soak up the sun, and enjoy the unparalleled freedom of the open water.
         </p>
 
         <ul>
@@ -43,9 +44,9 @@ export const ServiceDetail = [
           </li>
         </ul>
 
-        <h3>
+        <h2>
         Ready to Book a Yacht for Your Birthday Party?
-        </h3>
+        </h2>
         <p>
         Here's how to make your dream birthday a reality:
         </p>
@@ -83,9 +84,9 @@ export const ServiceDetail = [
         meta_title: 'Bachelorette Party - Yacht Club Goa',
         meta_description:'A bachelor or bachelorette party is not just any event—it’s a once-in-a-lifetime celebration that marks the end of singlehood and the start of a beautiful new chapter.',
         service_info: <> 
-        <h3>
+        <h2>
         Introduction – The Perfect Dual Farewell to Singlehood
-        </h3>
+        </h2>
         <p>
         A <span className={styles.orange}><b>bachelor or bachelorette party</b></span> is not just any event—it’s 
         a once-in-a-lifetime celebration that marks the end of singlehood and the start of a beautiful 
@@ -99,12 +100,12 @@ export const ServiceDetail = [
         adventure, and celebration, ensuring that your last hurrah before marriage is extraordinary.
         </p>
 
-        <h3>
+        <h2>
         Why a Bachelor/Bachelorette Party on a Yacht?
-        </h3>
+        </h2>
         <p>
         While there are plenty of traditional ways to celebrate, throwing a bachelor or bachelorette 
-        party on a yacht takes things to the next level. Imagine stepping onto a private yacht, welcomed 
+        party on a yacht takes things to the next level. Imagine stepping onto a <Link href="/yacht-sail">private yacht</Link>, welcomed 
         by the sight of sparkling blue waters and a horizon painted by the sunset. Whether you’re 
         looking to dance the night away with your best friends, relax with drinks in hand, or enjoy 
         thrilling water activities, a yacht provides an exclusive and luxurious experience that you 
@@ -118,9 +119,9 @@ export const ServiceDetail = [
         bachelor and bachelorette party.
         </p>
 
-        <h3>
+        <h2>
         Hiring a Yacht for Bachelor/Bachelorette Parties in Goa
-        </h3>
+        </h2>
 
         <p>
         Goa, known for its sun-kissed beaches, vibrant nightlife, and laid-back vibe, is one of 
@@ -129,9 +130,9 @@ export const ServiceDetail = [
         designed for the ultimate party experience—perfect for brides, grooms, and their entourages.
         </p>
 
-        <h3>
+        <h2>
         Why Choose Yacht Club Goa’s Yacht Charter for Your Party?
-        </h3>
+        </h2>
         <p>
         At Yacht Club Goa, we know that bachelor and bachelorette parties deserve to be epic. 
         Here’s why our yacht charters are the ideal choice for your celebration:
@@ -170,9 +171,9 @@ export const ServiceDetail = [
           </li>
         </ol>
 
-        <h3>
+        <h2>
         How to Make Your Bachelor/Bachelorette Party Unforgettable
-        </h3>
+        </h2>
 
         <p>
         Here are some ideas to make your party truly unforgettable:
@@ -211,9 +212,9 @@ export const ServiceDetail = [
           </li>
         </ul>
 
-        <h3>
+        <h2>
         FAQs About Hiring a Yacht for Bachelor/Bachelorette Parties in Goa
-        </h3>
+        </h2>
 
         <ol>
           <li>
@@ -262,9 +263,9 @@ export const ServiceDetail = [
           </li>
         </ol>
 
-        <h3>
+        <h2>
         Plan Your Unforgettable Bachelor/Bachelorette Party with Yacht Club Goa
-        </h3>
+        </h2>
 
         <p>
         A yacht party is more than just a celebration—it’s an experience. Whether you’re planning a 
@@ -282,15 +283,15 @@ export const ServiceDetail = [
     {
         id: 3,
         img: img3,
-        alt: "Propose on Yacht - Yatch Club Goa",
+        alt: "Propose on Yacht - Yacht Club Goa",
         name: 'Propose on a Yacht in Goa – Make Your Special Moment Unforgettable',
         param: 'propose-on-yacht-goa',
-        meta_title: 'Propose on Yacht - Yatch Club Goa',
+        meta_title: 'Propose on Yacht - Yacht Club Goa',
         meta_description:'A marriage proposal is one of the most memorable moments in life, a romantic turning point that marks the beginning of forever.',
         service_info: <> 
-        <h3>
+        <h2>
         Introduction – The Perfect Setting for a Dream Proposal
-        </h3>
+        </h2>
 
         <p>
         A marriage proposal is one of the most memorable moments in life, a romantic turning point that 
@@ -305,28 +306,28 @@ export const ServiceDetail = [
         moment, making it a memory you and your partner will cherish forever.
         </p>
 
-        <h3>
+        <h2>
         Why a Yacht Proposal?
-        </h3>
+        </h2>
 
         <p>
         Goa’s sparkling waters, stunning sunsets, and tropical breezes create an idyllic setting for a 
         romantic proposal. But while beaches and restaurants are popular, proposing on a yacht elevates 
-        the experience to a whole new level. A private yacht offers a secluded and intimate atmosphere 
+        the experience to a whole new level. A <Link href="/yacht-sail">private yacht</Link> offers a secluded and intimate atmosphere 
         where you can share this precious moment uninterrupted. The soothing sound of waves and panoramic 
         ocean views provide the perfect ambiance, setting the stage for a proposal that’s both romantic 
         and unforgettable.
         </p>
 
         <p>
-        Whether it’s a sunset cruise, a starlit night on the water, or a personalized itinerary along 
+        Whether it’s a <Link href="/yacht-services-goa/romantic-sunset-on-yacht-goa">sunset cruise</Link>, a starlit night on the water, or a personalized itinerary along 
         Goa’s coastline, a yacht proposal is an incredible way to say “I love you” in a setting as 
         breathtaking as your love.
         </p>
 
-        <h3>
+        <h2>
         Planning a Proposal on a Yacht in Goa
-        </h3>
+        </h2>
 
         <p>
         Planning a proposal requires attention to detail, and when it’s on a yacht, it becomes an 
@@ -335,9 +336,9 @@ export const ServiceDetail = [
         décor to champagne.
         </p>
 
-        <h3>
+        <h2>
         Why Choose Yacht Club Goa’s Yacht Charter for Your Proposal?
-        </h3>
+        </h2>
 
         <p>
         Yacht Club Goa offers a range of luxurious yachts and tailored experiences to make your proposal 
@@ -376,9 +377,9 @@ export const ServiceDetail = [
           </li>
         </ol>
 
-        <h3>
+        <h2>
         How to Make Your Yacht Proposal Unforgettable
-        </h3>
+        </h2>
 
         <p>
         Here are some tips to make your proposal on a yacht a magical experience:
@@ -409,9 +410,9 @@ export const ServiceDetail = [
           </li>
         </ul>
 
-        <h3>
+        <h2>
         FAQs About Proposing on a Yacht in Goa
-        </h3>
+        </h2>
 
         <ol>
         <li>
@@ -458,9 +459,9 @@ export const ServiceDetail = [
         </li>
         </ol>
 
-        <h3>
+        <h2>
         Make Your Proposal Unforgettable with Yacht Club Goa
-        </h3>
+        </h2>
 
         <p>
         Whether you envision a sunset proposal or a moonlit moment, proposing on a yacht creates a truly 
@@ -471,15 +472,15 @@ export const ServiceDetail = [
     {
         id: 4,
         img: img4,
-        alt: "Pre-wedding Shoot - Yatch Club Goa",
+        alt: "Pre-wedding Shoot - Yacht Club Goa",
         name: 'Pre-Wedding Shoot on a Yacht in Goa – Capture Your Love with Stunning Scenery',
         param: 'pre-wedding-shoot-on-yacht-goa',
-        meta_title: 'Pre-wedding Shoot - Yatch Club Goa',
+        meta_title: 'Pre-wedding Shoot - Yacht Club Goa',
         meta_description:'A pre-wedding shoot is more than just photos; it’s a way to capture the love, excitement, and unique connection you share with your partner before the big day.',
         service_info: <>
-        <h3>
+        <h2>
         Introduction – A Picture-Perfect Start to Your Journey
-        </h3>
+        </h2>
 
         <p>
         A pre-wedding shoot is more than just photos; it’s a way to capture the love, excitement, and 
@@ -490,9 +491,9 @@ export const ServiceDetail = [
         and romance, giving you one-of-a-kind photos to cherish forever.
         </p>
 
-        <h3>
+        <h2>
         Why Choose a Yacht for Your Pre-Wedding Shoot?
-        </h3>
+        </h2>
 
         <p>
         While beaches, gardens, and cityscapes are popular pre-wedding shoot locations, a yacht shoot 
@@ -509,9 +510,9 @@ export const ServiceDetail = [
         an experience that turns your love story into a visual masterpiece.
         </p>
 
-        <h3>
+        <h2>
         Planning Your Yacht Pre-Wedding Shoot in Goa
-        </h3>
+        </h2>
 
         <p>
         When it comes to planning a yacht shoot, every detail matters, from lighting and décor to the 
@@ -520,9 +521,9 @@ export const ServiceDetail = [
         romantic glow or an adventurous daytime shoot, we have the perfect yacht and setting for you.
         </p>
         
-        <h3>
+        <h2>
         Why Choose Yacht Club Goa’s Yacht Charter for Your Pre-Wedding Shoot?
-        </h3>
+        </h2>
 
         <p>
         At Yacht Club Goa, we know that a pre-wedding shoot is a precious event. Here’s why our yacht 
@@ -561,9 +562,9 @@ export const ServiceDetail = [
         </li>
         </ol>
 
-        <h3>
+        <h2>
         How to Make the Most of Your Yacht Pre-Wedding Shoot
-        </h3>
+        </h2>
 
         <p>
         Here are some tips to create magical, timeless photos on a yacht:
@@ -602,9 +603,9 @@ export const ServiceDetail = [
         </li>
         </ul>
 
-        <h3>
+        <h2>
         FAQs About Pre-Wedding Shoots on a Yacht in Goa
-        </h3>
+        </h2>
 
         <ol>
           <li>
@@ -660,20 +661,20 @@ export const ServiceDetail = [
     {
         id: 5,
         img: img5,
-        alt: "Romantic Sunset - Yatch Club Goa",
+        alt: "Romantic Sunset - Yacht Club Goa",
         name: 'Romantic Sunset Cruise on a Yacht in Goa – Experience Magic on the Water',
         param: 'romantic-sunset-on-yacht-goa',
-        meta_title: 'Romantic Sunset - Yatch Club Goa',
+        meta_title: 'Romantic Sunset - Yacht Club Goa',
         meta_description:'There’s something truly enchanting about watching the sun dip below the horizon, painting the sky with hues of orange, pink, and purple.',
         service_info: <> 
-        <h3>
+        <h2>
         Introduction – A Sunset to Remember
-        </h3>
+        </h2>
 
         <p>
         There’s something truly enchanting about watching the sun dip below the horizon, painting the sky 
         with hues of orange, pink, and purple. And when you experience this moment with someone special 
-        on a private yacht, it becomes a memory you’ll cherish forever. A romantic sunset cruise on a 
+        on a <Link href="/yacht-sail">private yacht</Link>, it becomes a memory you’ll cherish forever. A romantic sunset cruise on a 
         yacht in Goa offers an unforgettable way to celebrate love, creating an intimate and luxurious 
         experience that’s as magical as it is breathtaking.
         </p>
@@ -683,9 +684,9 @@ export const ServiceDetail = [
         a sunset cruise on Goa’s beautiful waters will leave you with memories that last a lifetime.
         </p>
 
-        <h3>
+        <h2>
         Why Choose a Sunset Cruise on a Yacht?
-        </h3>
+        </h2>
 
         <p>
         While there are many ways to enjoy Goa’s scenic sunsets, none compare to the serenity and beauty 
@@ -699,9 +700,9 @@ export const ServiceDetail = [
         romantic sunset cruise creates the perfect backdrop for a truly special experience.
         </p>
 
-        <h3>
+        <h2>
         What to Expect on Your Romantic Sunset Cruise
-        </h3>
+        </h2>
 
         <p>
         At Yacht Club Goa, we specialize in creating bespoke romantic experiences that capture the beauty 
@@ -709,9 +710,9 @@ export const ServiceDetail = [
         thoughtfully designed to make your evening unforgettable.
         </p>
 
-        <h3>
+        <h2>
         Why Choose Yacht Club Goa for Your Sunset Yacht Cruise?
-        </h3>
+        </h2>
 
         <p>
         Yacht Club Goa offers more than just a yacht ride – we offer a curated romantic experience. 
@@ -750,9 +751,9 @@ export const ServiceDetail = [
         </li>
         </ol>
 
-        <h3>
+        <h2>
         How to Make Your Sunset Cruise Extra Special
-        </h3>
+        </h2>
 
         <p>
         Here are a few ideas to make your sunset cruise unforgettable:
@@ -796,9 +797,9 @@ export const ServiceDetail = [
         </li>
         </ul>
 
-        <h3>
+        <h2>
         FAQs About Romantic Sunset Cruises on a Yacht in Goa
-        </h3>
+        </h2>
 
         <ol>
         <li>
@@ -846,15 +847,15 @@ export const ServiceDetail = [
     {
         id: 6,
         img: img6,
-        alt: "Corporate Events - Yatch Club Goa",
+        alt: "Corporate Events - Yacht Club Goa",
         name: 'Corporate Events on a Yacht in Goa – Elevate Your Next Business Gathering',
         param: 'corporate-events-on-yacht-goa',
-        meta_title: 'Corporate Events - Yatch Club Goa',
+        meta_title: 'Corporate Events - Yacht Club Goa',
         meta_description:'Corporate events have evolved, and today’s gatherings are all about creating memorable, inspiring experiences that go beyond the typical boardroom setting.',
         service_info: <> 
-        <h3>
+        <h2>
         Introduction – A New Wave of Corporate Events
-        </h3>
+        </h2>
 
         <p>
         Corporate events have evolved, and today’s gatherings are all about creating memorable, 
@@ -871,9 +872,9 @@ export const ServiceDetail = [
         lasting impression.
         </p>
 
-        <h3>
+        <h2>
         Why Host a Corporate Event on a Yacht?
-        </h3>
+        </h2>
 
         <p>
         A corporate event on a yacht offers several advantages over traditional venues. 
@@ -891,9 +892,9 @@ export const ServiceDetail = [
         corporate occasion.
         </p>
 
-        <h3>
+        <h2>
         Planning a Corporate Event on a Yacht in Goa
-        </h3>
+        </h2>
 
         <p>
         At Yacht Club Goa, we understand that every corporate event is unique, which is why we offer 
@@ -902,9 +903,9 @@ export const ServiceDetail = [
         brand and objectives.
         </p>
 
-        <h3>
+        <h2>
         Why Choose Yacht Club Goa for Your Corporate Event?
-        </h3>
+        </h2>
 
         <p>
         Yacht Club Goa combines professionalism with luxury, offering everything you need to make your 
@@ -944,9 +945,9 @@ export const ServiceDetail = [
         </li>
         </ol>
 
-        <h3>
+        <h2>
         Ideas to Make Your Corporate Yacht Event Unforgettable
-        </h3>
+        </h2>
 
         <p>
         Here are some popular corporate event ideas that work beautifully on a yacht:
@@ -986,9 +987,9 @@ export const ServiceDetail = [
         </li>
         </ul>
         
-        <h3>
+        <h2>
         FAQs About Corporate Yacht Events in Goa
-        </h3>
+        </h2>
 
         <ol>
         <li>

@@ -32,10 +32,10 @@ function Section2({ param_val,service_detail_arr }) {
                                                 Latest Services
                                             </p>
                                             {
-                                                service_data.map(
+                                                service_data.filter(service => service.param !== param_val.serviceid).map(
                                                     (latest_val, index) => {
                                                         return <div className={styles.latest_services_info_div} key={index}
-                                                            style={{ display: param_val.serviceid === latest_val.param ? 'none' : 'flex' }}>
+                                                            style={{ display: 'flex' }}>
 
                                                             <div>
                                                                 <Image src={latest_val.img} alt={latest_val.alt} className={styles.latest_services_img} />

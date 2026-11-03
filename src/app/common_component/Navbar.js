@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useEffect } from 'react'
 
 //Css
@@ -167,7 +167,7 @@ const toggle_drp = (val) =>
         <div className="container">
             <div className="nav_main_div">
               <Link href='/'>
-               <Image src={logo} alt="logo" className="logo_img"/>
+               <Image src={logo} alt="Yacht Club Goa" className="logo_img"/>
                </Link>
 
                <div className="nav_book_btn_main_div" id="nav_book_btn_main_div_id">

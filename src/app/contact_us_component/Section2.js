@@ -1,4 +1,5 @@
-'use client'
+"use client";
+import { BUSINESS_ADDRESS } from '../lib/seo.mjs';
 import React, { useState } from 'react'
 
 import {Container,Row,Col,FormGroup,FormControl} from 'react-bootstrap'
@@ -90,7 +91,8 @@ function Section2() {
       else
       {
         //Sending the mail
-        const response = await fetch('/api/ContactSendEmail',{
+        try {
+          const response = await fetch('/api/ContactSendEmail',{
           method: 'POST',
           headers:{
             'Content-Type': 'application/json',
@@ -99,7 +101,15 @@ function Section2() {
         })
 
         const data = await response.json();
-        setMail_sent_status(data.status);
+        setMail_sent_status(response.ok && data.status === 200 ? 200 : 500);
+          if (response.ok && data.status === 200) {
+            window.gtag?.('event', 'generate_lead', { form_name: 'contact' });
+          }
+        } catch {
+          setMail_sent_status(500);
+        } finally {
+          setLoading(false);
+        }
 
         setLoading(false); //removing loader gif
       }
@@ -367,7 +377,7 @@ function Section2() {
                         </p>
 
                         <p className={styles.sec2_get_touch_ans}>
-                        Betim Porvorim, Penha de França, Goa
+                        {BUSINESS_ADDRESS}
                         </p>
                     </div>
                   </div>

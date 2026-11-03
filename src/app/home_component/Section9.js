@@ -1,5 +1,4 @@
-'use client'
-
+"use client";
 import Image from 'next/image'
 
 //Images
@@ -32,7 +31,7 @@ function Section9() {
             </p>
             <div className='sec9_title_div'>
             <h2 className="sec9_title">
-                From our top clients experience
+                What our guests say
             </h2>
             </div>
 
@@ -58,7 +57,7 @@ function Section9() {
                         <div>
                             <div className="sec9_test_info_main_div">
                                 <div className="sec9_test_info_div">
-                                    <Image src={quote} alt="Luxury Bachelorette Party Venues" className="sec9_quote_img"/>
+                                    <Image src={quote} alt="" className="sec9_quote_img"/>
 
                                     <p className="sec9_test_info">
                                     The day on the yacht was just perfect. We had a fantastic time… one of 
@@ -72,7 +71,7 @@ function Section9() {
                                     </p>
                                 </div>
 
-                                    <Image src={swiper_bg_img} alt="Goa Bachelorette Party Ideas" className="sec9_swiper_bg_img"/>
+                                    <Image src={swiper_bg_img} alt="" className="sec9_swiper_bg_img"/>
                                 
                             </div>
                         </div>
@@ -92,7 +91,7 @@ function Section9() {
                         <div>
                             <div className="sec9_test_info_main_div">
                                 <div className="sec9_test_info_div">
-                                    <Image src={quote} alt="Private Yacht Bachelorette Parties" className="sec9_quote_img"/>
+                                    <Image src={quote} alt="" className="sec9_quote_img"/>
 
                                     <p className="sec9_test_info">
                                     The BEST Yacht experience in goa. I have been staying in goa for 4 years now and I am 
@@ -109,7 +108,7 @@ function Section9() {
                                     </p>
                                 </div>
 
-                                    <Image src={swiper_bg_img} alt="Bachelorette Party Activities in Goa" className="sec9_swiper_bg_img"/>
+                                    <Image src={swiper_bg_img} alt="" className="sec9_swiper_bg_img"/>
                                 
                             </div>
                         </div>
@@ -129,7 +128,7 @@ function Section9() {
                         <div>
                             <div className="sec9_test_info_main_div">
                                 <div className="sec9_test_info_div">
-                                    <Image src={quote} alt="Destination Bachelorette Party in Goa" className="sec9_quote_img"/>
+                                    <Image src={quote} alt="" className="sec9_quote_img"/>
 
                                     <p className="sec9_test_info">
                                     Great experience and all friends were really overwhelmed..😍 
@@ -142,7 +141,7 @@ function Section9() {
                                     </p>
                                 </div>
 
-                                    <Image src={swiper_bg_img} alt="Fun Bachelorette Party Experiences" className="sec9_swiper_bg_img"/>
+                                    <Image src={swiper_bg_img} alt="" className="sec9_swiper_bg_img"/>
                                 
                             </div>
                         </div>
@@ -154,9 +153,9 @@ function Section9() {
 
            <div className="swiper-pagination" id="sec9_swiper_pagination_id"></div>
         </div>
-        <Image src={bg2} alt="Bachelorette Party Rentals in Goa" className="sec9_bg1_img"/>
+        <Image src={bg2} alt="" className="sec9_bg1_img"/>
 
-        <Image src={bg1} alt="Corporate Event Planning Services" className="sec9_bg2_img"/>
+        <Image src={bg1} alt="" className="sec9_bg2_img"/>
     </section>
     </>
   )

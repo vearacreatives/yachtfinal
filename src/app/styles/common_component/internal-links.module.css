@@ -1,0 +1,10 @@
+.breadcrumb, .planning { width: min(1140px, calc(100% - 32px)); margin-inline: auto; }
+.breadcrumb { padding-block: 18px; font-size: .875rem; }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 12px; padding: 0; margin: 0; }
+.breadcrumb li:not(:last-child)::after { content: "/"; margin-left: 12px; color: #666; }
+.breadcrumb a, .planning a { color: #86360b; text-decoration: underline; text-underline-offset: 3px; }
+.breadcrumb a:hover, .planning a:hover { color: #492006; }
+.planning { padding: 24px; margin-block: 24px 48px; background: #fff8f2; border: 1px solid #eadbd0; border-radius: 8px; }
+.planning h2 { font-size: clamp(1.25rem, 2.5vw, 1.65rem); }
+.planning li { margin-block: 10px; }
+.planning ul { padding-left: 22px; margin-bottom: 0; }

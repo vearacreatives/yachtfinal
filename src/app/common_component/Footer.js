@@ -1,5 +1,5 @@
-'use client'
-
+"use client";
+import { BUSINESS_ADDRESS } from '../lib/seo.mjs';
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -58,10 +58,10 @@ function Footer() {
                    <p className="footer_title">
                    About Yacht Club Goa
                    </p>
-                   <Image src={underline_img} alt="Private Yacht Birthday Rentals in Goa" className="footer_underline"/>
+                   <Image src={underline_img} alt="" className="footer_underline"/>
 
                    <p className="footer_about_info">
-                   Yacht Club Goa was the very first to bring luxury yacht rentals to Goa, and we're dedicated 
+                   Yacht Club Goa offers private yacht rentals in Goa, and we're dedicated 
                    to providing top-notch service. Explore Goa's beautiful coastline in style and comfort 
                    with us!
                    </p>
@@ -78,7 +78,7 @@ function Footer() {
                     <p className="footer_title">
                      Contact Us
                     </p>
-                    <Image src={underline_img} alt="Goa Birthday Party Packages" className="footer_underline"/>
+                    <Image src={underline_img} alt="" className="footer_underline"/>
  
                     <a href='tel:+91 9325087968' className="footer_contact_info"> 
                      <FaPhone className='footer_icon'/> +91 9325087968
@@ -89,16 +89,8 @@ function Footer() {
                     </a>
 
                     <p className="footer_contact_info">
-                    <FaLocationDot className='footer_addr_icon'/> Alto- Betim, Britona - Bardez Bridge Approach, Porvorim, Penha de Franc, Goa 403521
+                    <FaLocationDot className='footer_addr_icon'/> {BUSINESS_ADDRESS}
                     </p>
-
-                    {/* Rating */}
-                    <div className='footer_rating_div'>
-                    <Rating initialValue={4.9} allowFraction size={20} 
-                            fillColor='#f57c33'
-                            readonly={true}/>
-                    <p className="footer_contact_info">4.9/5.0</p>
-                    </div>
                    
                  </div>
                 
@@ -106,7 +98,7 @@ function Footer() {
                     <p className="footer_title">
                      Quick Links
                     </p>
-                    <Image src={underline_img} alt="Pre-Wedding Photoshoots in Goa" className="footer_underline"/>
+                    <Image src={underline_img} alt="" className="footer_underline"/>
  
                      <div className='footer_quick_link_div'>
                      <Link href="/about-us" className="footer_quick_link">
@@ -140,7 +132,7 @@ function Footer() {
                     <p className="footer_title">
                     Book Your Yacht Charter
                     </p>
-                    <Image src={underline_img} alt="Romantic Pre-Wedding Locations in Goa" className="footer_underline"/>
+                    <Image src={underline_img} alt="" className="footer_underline"/>
  
                     <p className="footer_about_info">
                     Create Memories that Last. Sail With Us.
@@ -194,13 +186,13 @@ function Footer() {
            </div>
         </div>
 
-        <Image src={bg_img1} alt="Destination Pre-Wedding Shoot Goa" className="footer_bg_img1"/>
+        <Image src={bg_img1} alt="" className="footer_bg_img1"/>
 
-        <Image src={bg_img2} alt="Goa Beach Pre-Wedding Photography" className="footer_bg_img2"/>
+        <Image src={bg_img2} alt="" className="footer_bg_img2"/>
 
-        <Image src={bg_img3} alt="Goa Pre-Wedding Shoot Packages" className="footer_bg_img3"/>
+        <Image src={bg_img3} alt="" className="footer_bg_img3"/>
 
-        <Image src={bg_img4} alt="Luxury Bachelorette Party Venues" className="footer_bg_img4"/>
+        <Image src={bg_img4} alt="" className="footer_bg_img4"/>
        </section>
     </>
   )

@@ -1,72 +1,42 @@
-import { BlogDetail } from '@/app/our_blog_detail_component/BlogDetail'
-import Section2 from '@/app/our_blog_detail_component/Section2'
-import { redirect } from 'next/navigation'
-import React from 'react'
-
-
-
-
-//Metadata
-export const generateMetadata = ({params}) => 
-{   
-  // Data
-const blog_data = BlogDetail.filter((val)=>val.param === params.blogid)
-// End of Data
-   if(blog_data.length !== 0)
-   {
-    
-    return{
-    title: blog_data[0].meta_title ,
-    description:blog_data[0].meta_description,
-    alternates:{
-        canonical: `${process.env.NEXT_PUBLIC_URL}/our-blog/${params.blogid}`
-    }
-   }
-   }
+import Breadcrumbs from '../../common_component/Breadcrumbs';
+import React from 'react';
+import { BlogDetail } from '../../our_blog_detail_component/BlogDetail';
+import Section2 from '../../our_blog_detail_component/Section2';
+import { notFound, permanentRedirect } from 'next/navigation';
+import { pageMetadata, canonicalUrl, cleanBlogSlug, SITE_URL, jsonLd } from '../../lib/seo.mjs';
+function resolveItem(params) {
+  const requested = params.blogid;
+  const slug = cleanBlogSlug(requested);
+  const item = BlogDetail.find(entry => entry.param === slug);
+  if (!item) notFound();
+  if (requested !== slug) permanentRedirect(canonicalUrl(`/our-blog/${slug}`));
+  return item;
 }
-//End of Metadata
-
- // Capitalize the first letter of each word
- function capitalizeFirstLetterOfEachWord(str) 
- {
-  // Split the string into an array of words
-  const words = str.split(' ');
-
-  // Capitalize the first letter of each word
-  const capitalizedWords = words.map(word => {
-      // If the word is not empty, capitalize the first letter and append the rest of the word
-      if (word) {
-          return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-      } else {
-          // If the word is empty, return it as is (handles multiple spaces)
-          return word;
-      }
+export function generateStaticParams() {
+  return BlogDetail.map(item => ({ blogid: item.param }));
+}
+export async function generateMetadata({ params }) {
+  const resolved = await params;
+  const item = resolveItem(resolved);
+  return pageMetadata({
+    title: item.meta_title, description: item.meta_description,
+    path: `/our-blog/${item.param}`, image: item.img, type: 'article'
   });
-
-  // Join the array of words back into a single string with spaces between words
-  return capitalizedWords.join(' ');
 }
-function page({params}) {
-  const getData = () =>
-  {
-    const blog_detail_arr_val = BlogDetail.filter((val)=>val.param === params.blogid);
-    if(blog_detail_arr_val.length !== 0)
-    {
-      return blog_detail_arr_val
-    }
-    else
-    {
-      redirect('/our-blog')
-    }
-  }
-  return (
-    <>
-
-      {/* Section 2 */}
-      <Section2 param_val={params} blog_detail_arr_val={getData()}/>
-      {/* End of Section 2 */}
-    </>
-  )
+export default async function Page({ params }) {
+  const resolved = await params;
+  const item = resolveItem(resolved);
+  return <>
+    <Breadcrumbs hub="/our-blog" hubLabel="Blog" title={item.name} path={`/our-blog/${item.param}`} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd({
+      '@context': 'https://schema.org', '@type': 'BlogPosting',
+      headline: item.meta_title, description: item.meta_description,
+      mainEntityOfPage: canonicalUrl(`/our-blog/${item.param}`),
+      datePublished: item.date,
+      image: new URL(typeof item.img === 'string' ? item.img : item.img.src, SITE_URL).href,
+      author: { '@type': 'Organization', name: 'Yacht Club Goa', '@id': `${SITE_URL}/#organization` },
+      publisher: { '@id': `${SITE_URL}/#organization` }
+    }) }} />
+    <Section2 param_val={{ ...resolved, blogid: item.param }} blog_detail_arr_val={[item]} />
+  </>;
 }
-
-export default page

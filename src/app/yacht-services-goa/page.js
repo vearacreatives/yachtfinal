@@ -1,15 +1,10 @@
+import socialImage from '../assets/home/section1_banner.jpg';
+import { pageMetadata } from '../lib/seo.mjs';
 import React from 'react'
 import Section2 from '../yacht_services_goa_component/Section2'
 
 //Metadata
-export const metadata = {
-    title: 'Yacht Services Goa | Yacht Club Goa',
-    description: 'Yacht Services Goa',
-    alternates:{
-       canonical: `${process.env.NEXT_PUBLIC_URL}/yacht-services-goa`
-    }
-}
-//End of Meta data
+export const metadata = pageMetadata({image: socialImage, "title": "Yacht Experiences and Celebrations in Goa | Yacht Club Goa", "description": "Plan a yacht birthday, proposal, pre-wedding shoot, sunset outing or corporate event in Goa. Explore experiences and enquire about your preferred date.", "path": "/yacht-services-goa"});
 
 function page() {
   return (

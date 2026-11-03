@@ -77,13 +77,13 @@ function Section6() {
                 </Link>
              </div>
 
-             <Image src={bg1} alt="Goa Bachelorette Party Ideas" className="sec6_bg_img_explore"/>
+             <Image src={bg1} alt="" className="sec6_bg_img_explore"/>
         </div>
       </div>
 
-      <Image src={bg2} alt="Private Yacht Bachelorette Parties" className="sec6_arrow_img"/>
+      <Image src={bg2} alt="" className="sec6_arrow_img"/>
 
-      <Image src={bg3} alt="Bachelorette Party Activities in Goa" className="sec6_wheel_img"/>
+      <Image src={bg3} alt="" className="sec6_wheel_img"/>
     </section>
     </>
   )

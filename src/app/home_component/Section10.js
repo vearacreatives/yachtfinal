@@ -1,5 +1,4 @@
-'use client'
-
+"use client";
 import {FormGroup,FormControl} from 'react-bootstrap';
 
 import Image from 'next/image'
@@ -89,7 +88,8 @@ function Section10() {
         }
         else
         {
-            const response = await fetch('/api/GetInTouchEmail',{
+            try {
+          const response = await fetch('/api/GetInTouchEmail',{
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
@@ -98,7 +98,15 @@ function Section10() {
             })
 
             const data = await response.json();
-            setMail_sent_status(data.status);
+            setMail_sent_status(response.ok && data.status === 200 ? 200 : 500);
+          if (response.ok && data.status === 200) {
+            window.gtag?.('event', 'generate_lead', { form_name: 'home_enquiry' });
+          }
+        } catch {
+          setMail_sent_status(500);
+        } finally {
+          setLoading(false);
+        }
             setLoading(false);
         }
     }
@@ -164,7 +172,7 @@ function Section10() {
                         +91 9325087968
                         </p>
 
-                        <Image src={bg_img} alt="image" className="sec10_bg_img"/>
+                        <Image src={bg_img} alt="" className="sec10_bg_img"/>
                       </div>
                     </div>
                 </div>

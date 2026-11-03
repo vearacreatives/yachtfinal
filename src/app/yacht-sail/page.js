@@ -1,15 +1,10 @@
+import socialImage from '../assets/home/section1_banner.jpg';
+import { pageMetadata } from '../lib/seo.mjs';
 import React from 'react'
 import Section2 from '../yacht_component/yacht_sell/Section2'
 
 //Metadata
-export const metadata = {
-  title: "Rent Luxury Yachts in Goa: Explore unmatched Luxury",
-  description: "Experience unparalleled luxury at sea with Yacht Club Goa. Explore the stunning coastline of Goa aboard our magnificent yachts.",
-  alternates:{
-    canonical: `${process.env.NEXT_PUBLIC_URL}/yacht-sail`
-  }
-};
-//End of Metadata
+export const metadata = pageMetadata({image: socialImage, "title": "Private Yachts for Rent in Goa | Yacht Club Goa", "description": "Explore yachts and boats for private hire in Goa. Compare onboard features and send your date and guest count to Yacht Club Goa for availability and a quote.", "path": "/yacht-sail"});
 
 function page() {
   return (

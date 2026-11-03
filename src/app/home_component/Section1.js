@@ -14,7 +14,7 @@ function Section1() {
     <>
        <section>
         <div className="sec1_content_main_div">
-            <Image src={section1_banner} alt="Hire luxury private yachts in goa" className="sec1_banner"/>
+            <Image src={section1_banner} priority sizes="100vw" alt="Hire luxury private yachts in goa" className="sec1_banner"/>
             <div className="sec1_content_overlay">
                 <div className="container">
                     <div className="blue_card_div">

@@ -76,9 +76,9 @@ function Section2() {
            
         </Container>
 
-        <Image src={bg1} alt='Fun Bachelorette Party Experiences' className={styles.bg1_img}/>
+        <Image src={bg1} alt="" className={styles.bg1_img}/>
 
-        <Image src={bg2} alt='Bachelorette Party Rentals in Goa' className={styles.bg2_img}/>
+        <Image src={bg2} alt="" className={styles.bg2_img}/>
       </section>
     </>
   )
